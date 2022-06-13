@@ -1,0 +1,11 @@
+### Post request
+This will react to http request, usually in a form of an [[HTML]] form
+
+![[Pasted image 20220602031758.png]]
+
+### Delete Request
+Will respond to delete http request
+
+![[Pasted image 20220602031804.png]]
+
+### [[Express|Read Get Request Here]]

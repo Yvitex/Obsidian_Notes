@@ -1,0 +1,15 @@
+{
+  "cssTheme": "Obsidianite",
+  "enabledCssSnippets": [
+    "checkbox",
+    "clutter-free-formatting",
+    "clutter-free-headings",
+    "inline-block-embeds",
+    "notation-colour-blocks",
+    "realistic-highlight",
+    "obsidianite-fonts",
+    "omega-hr",
+    "center-images"
+  ],
+  "baseFontSize": 13
+}

@@ -1,0 +1,1 @@
+It means the smallest [[Compound is a combination of 2 or more elements|compound]] can be an molecule such as H20.

@@ -20,3 +20,6 @@ mesh.scale.set(2, 0.5, 0.5)
 ```
 
 ![[Pasted image 20220611061603.png]]
+
+
+#three

@@ -1,3 +1,6 @@
+---
+aliases: [feature]
+---
 # What we need to Identify
 1. Source of the data
 2. Description of the data set

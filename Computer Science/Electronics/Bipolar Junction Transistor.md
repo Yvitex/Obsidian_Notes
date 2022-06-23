@@ -44,7 +44,7 @@ We can use the [[Kirchoff's Current Law|kcl]] to create a new equation which is
 ![[Pasted image 20220603112619.png]]
 
 
-The direction of the [[Electric Current|Current]] will always be from higher potential or [[Voltage]] to the ground or negative voltage
+The direction of the [[Electric Current|Current]] will always be from higher potential or [[Voltage]] to the [[Ground]] or negative voltage
 By the way, PNP transistor looks like this ![[Pasted image 20220611140804.png]]
 
 

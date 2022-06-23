@@ -11,3 +11,4 @@ To specify a color, we instantiate the **MeshBasicMaterial**
 
 Parameters inside the Three.js class contains a js.object as we have many properties we could add. Colors can also be in [[Hexadecimal Notation]]
 
+#three

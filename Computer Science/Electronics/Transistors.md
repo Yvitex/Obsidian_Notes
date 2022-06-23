@@ -10,7 +10,7 @@ They are like 2 [[Diodes]] connected to each other. It came form 2 words, **tran
 This is a NPN transistor, the [[Bipolar Junction Transistor|collector]] and [[Bipolar Junction Transistor|emitter]] are both negative and the base is positive. This is the msot common type of transistor because of its mobility as it utilizes [[Electron Flow]] 
 ## Purpose
 - [[Amplification]] or increase the power of voltage wherein the greater the resistance, the greater the voltage $$(iR = v) \lt (i\large \uparrow R =  \uparrow V)$$
-- [[Switching Operations]] such as for storing data in memory card
+- [[Switching Operation]] such as for storing data in memory card
 
 
 ## Structure

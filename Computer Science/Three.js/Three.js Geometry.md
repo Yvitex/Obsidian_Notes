@@ -13,3 +13,5 @@ Three.js already has a specified class in creating a cube called **BoxGeometry**
 `const geometry = new THREE.BoxGeometry(1, 1, 1)`
 
 The parameters we use is the x, y, z size of the geometry
+
+#three

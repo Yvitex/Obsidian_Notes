@@ -1622,3 +1622,11 @@ pre.line-numbers > code {
   padding-right: 0.8em;
   text-align: right;
 }
+
+table{
+  text-align: center !important;
+  position: relative !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  align-items: center;
+}

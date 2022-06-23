@@ -25,7 +25,7 @@ Substrate [[Present Perfect Continuous|has been]] separated with silicon dioxide
 ## When Attached to a Source
 ![[Pasted image 20220608144952.png]]
 
-- $V_{DD}$  is the source. It is the difference between the drain voltage with respect to ground or negative terminal of the source
+- $V_{DD}$  is the source. It is the difference between the drain voltage with respect to [[Ground]] or negative terminal of the source
 - $V_{GS}$ is the voltage difference between the source and gate just like [[Junction Field Effect Transistor|JFET]]
 
 

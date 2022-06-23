@@ -27,3 +27,6 @@ mesh.rotation.y = Math.PI * 0.25
 ```
 
 ![[Pasted image 20220611061823.png]]
+
+
+#three

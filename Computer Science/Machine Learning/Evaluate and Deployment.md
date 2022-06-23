@@ -3,6 +3,6 @@ In this part, it is like a health check up where we run a number of test to our 
 
 ## Some Statistical Checkups
 - [[R_Squared]]
-- p-values
-- V.I.F
+- [[P-Value]]
+- [[Variance Inflation Factor|V.I.F]]
 - BIC

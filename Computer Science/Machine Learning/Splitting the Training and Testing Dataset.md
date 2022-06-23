@@ -48,4 +48,4 @@ will print: 0.2015810276679842
 this justify the 80:20 ratio. 
 
 
-Now, we can [[Calculate Linear Regression using Training Dataset]]
+Now, we can [[Calculating Linear Regression using Training Dataset]]

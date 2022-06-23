@@ -25,11 +25,11 @@ pd.DataFrame(data=values, index=X_data.columns, columns=[])
 ## Counting the number of element for each column
 ![[Pasted image 20220605154602.png]]
 
-To print out only the first 5 indexes
+## To print out only the first 5 indexes
 
 ![[Pasted image 20220605154613.png]]
 
-To print out only the last 5 indexes
+## To print out only the last 5 indexes
 
 ![[Pasted image 20220605154621.png]]
 
@@ -58,10 +58,27 @@ print(fr.index)
 ```
 
 ## AXIS
-```
+```python
 y = data.drop('f', axis=1) # Removes the Column
 
 x = data.drop('f', axis=0) # Removes the ROW
+```
+
+##  Individual Insertion of Columns In Dataframe
+```python
+pd.DataFrame({"X": x_datas, "Y": y_datas})
+```
+
+## Deleting Some Columns
+```python
+dataframe.drop(["X", "Y"], axis=1) # columns
+dataframe.drop(["X"], axis=0) # rows
+```
+
+## Combining Dataframes to One
+```python
+frame = [var1, var2, var3] # each var is also a dataframe
+pd.concat(frame, axis=1)
 ```
 
 

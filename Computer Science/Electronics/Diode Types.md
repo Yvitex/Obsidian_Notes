@@ -11,5 +11,5 @@ These are the basic types of [[Diodes]]
 ![[Pasted image 20220612104154.png]]
 5. Varactor or Varicap Diodes - provide voltage controlled variable capacitance.
  ![[Pasted image 20220612104216.png]]
-6. Schottky Diode - Used in [[Switching Operations]], with less power loss and faster response time.  Causing of zener.
+6. Schottky Diode - Used in [[Switching Operation]], with less power loss and faster response time.  Causing of zener.
 ![[Pasted image 20220612104232.png]]

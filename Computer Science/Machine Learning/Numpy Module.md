@@ -39,5 +39,11 @@ np.log(dataseries)
 ```
 
 
+## Euler Number
+```python
+np.e
+```
+
+
 Related: [[Python Programming]]
   

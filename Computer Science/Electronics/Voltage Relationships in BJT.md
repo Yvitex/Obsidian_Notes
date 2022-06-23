@@ -6,7 +6,7 @@ This measures the Voltage difference of Base Voltage and Emitter Voltage
 $$V_{CE} = V_C - V_E$$
 This measures the Voltage difference of colelctor Voltage and Emitter Voltage
 $$V_{EE} = V_E - V_E = 0$$
-This measures the Voltage difference of ground and ground which is both zero
+This measures the Voltage difference of  [[Ground]] and ground which is both zero
 $$V_{CB} = V_C - V_B$$
 This measures the Voltage difference of Collector Voltage and Base Voltage
 $$V_{CC} = Source \space Voltage$$

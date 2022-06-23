@@ -56,11 +56,10 @@ sns.lmplot(x="LSTAT", y="PRICE", data=data, line_kws={"color": "red"},
 
 Transforming this data using Logarithmic Transform. We input the same argument, but this time, the price must be in logarithmic form
 
-```
+```python
 import seaborn as sns
 
-tranformed_data = features # note that features is a variable of a dataframe data without 
-                             Price columns
+tranformed_data = features # note that features is a variable of a dataframe data without Price columns
                              
 transformed_data["PRICE_LOG"] = np.log(data["PRICE"])
 

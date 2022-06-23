@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "9358eee31cb95aef",
+        "id": "f35141b23a638f3d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Environmental Variables.md",
+            "file": "Machine Learning/P-Value.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,8 +41,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "regression",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -70,15 +70,23 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Environmental Variables.md",
+                "file": "Machine Learning/P-Value.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
+                "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "44cfcf5d9d103a21",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ]
@@ -93,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Environmental Variables.md",
+                "file": "Machine Learning/P-Value.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -116,24 +124,10 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.25883865621816554,
+                  "scale": 0.5087618855792652,
                   "close": true
                 }
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "88f1091b6c2d5f3a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "04e109a7552e5b2e",
-            "type": "leaf",
-            "state": {
-              "type": "map-of-content",
-              "state": {}
             }
           }
         ]
@@ -142,17 +136,17 @@
     "direction": "horizontal",
     "width": 261
   },
-  "active": "9358eee31cb95aef",
+  "active": "f35141b23a638f3d",
   "lastOpenFiles": [
-    "Environmental Variables.md",
-    "WebApp/Databases.md",
-    "BlockChain/Blockchain Nodes.md",
-    "BlockChain/BlockChain.md",
-    "WebApp/Atlas.md",
-    "5 Levels of Security.md",
-    "WebApp/Express.md",
-    "WebApp/RESTFUL API.md",
-    "API.md",
-    "mongoose-encryption.md"
+    "Machine Learning/P-Value.md",
+    "Untitled.md",
+    "Machine Learning/Plotting Linear Regression for Model with Training Dataset.md",
+    "Machine Learning/Numpy Module.md",
+    "Three.js/Euler's Angle.md",
+    "Machine Learning/Splitting the Training and Testing Dataset.md",
+    "Machine Learning/Bayesian Information Criterion.md",
+    "Machine Learning/Residual Pattern.md",
+    "Machine Learning/Data Transformation.md",
+    "Machine Learning/Calculating Linear Regression using Training Dataset.md"
   ]
 }

@@ -8,4 +8,9 @@ Will respond to delete http request
 
 ![[Pasted image 20220602031804.png]]
 
+
+## Post Request
+![[Pasted image 20220602035348.png]]
+
+
 ### [[Express|Read Get Request Here]]

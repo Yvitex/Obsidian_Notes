@@ -19,4 +19,4 @@ This is represented by the symbol R with the unit of ohms
 The inverse of resistance is called [[Conductance]]
 
 
-Related: [[Resistors]]
+Related: [[Resistor]]

@@ -2,7 +2,7 @@
 aliases: [java]
 ---
 # Java Basics
-Java is a [[Compiled Language]], while others such as [[Python Programming|python]] and [[JavaScript]] are [[Interpreted language]]. That is why this has a lot more features than the others, but because it is compacted with features means it is a lot more complicated causing migrain. Please, send help.
+Java is a [[Compiled Language]], while others such as [[Python Programming|python]] and [[Javascript]] are [[Interpreted language]]. That is why this has a lot more features than the others, but because it is compacted with features means it is a lot more complicated causing migrain. Please, send help.
 
 
 ## Make Buttons Functionable
@@ -138,7 +138,7 @@ myButton.setOnClickListener(new View.OnClickListener(){
 });
 ```
 
-It's already familiar as it is the same with [[Python Programming]] and [[JavaScript]] . So when we enter a name, the device will look like this
+It's already familiar as it is the same with [[Python Programming]] and [[Javascript]] . So when we enter a name, the device will look like this
 ![[Pasted image 20220616152635.png]]
 If we leave it blank, it will look like this. 
 ![[Pasted image 20220616152703.png]]

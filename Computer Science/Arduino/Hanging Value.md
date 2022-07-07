@@ -2,7 +2,7 @@
 aliases: [floating value, float]
 ---
 # Hanging Value
-Happens when the state of the [[Digital Pins]] are not defined or not specific (if it is high(connected to [[Voltage Relationships in BJT|VCC]]) or low(connected to the [[Ground]])). It is similar to an [[2 Extreme Scenarios of a Circuit|Open Circuit]], simple circuits though doesn;t need to detect the [[Electric Current|Current]] all the time unlike [[Digital Pins]] that needs to read wether a state is high or low. 
+Happens when the state of the [[Digital Pin]] are not defined or not specific (if it is high(connected to [[Voltage Relationships in BJT|VCC]]) or low(connected to the [[Ground]])). It is similar to an [[2 Extreme Scenarios of a Circuit|Open Circuit]], simple circuits though doesn;t need to detect the [[Electric Current|Current]] all the time unlike [[Digital Pin]] that needs to read wether a state is high or low. 
 
 
 The common example is a circuit from a digital pin with a button to the [[Ground]].![[Drawing 2022-06-21 11.18.20.excalidraw.png]]

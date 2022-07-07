@@ -8,3 +8,10 @@ These are the isn't, doesn't etc.
 - "This book **isn't** very interesting"
 - "My friend **doesn't** like football"
 
+## 5 Most Common Contraction
+- I'm
+- You're
+- I've
+- We'll
+- You'll
+

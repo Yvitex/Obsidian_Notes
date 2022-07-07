@@ -28,6 +28,6 @@ As we can see on the diagram, the potential of the base is the highest so [[Elec
 
 In this case, when I_B increase, I_C in saturation region does not compared to [[Active Region]] where when base current increase, collector current increase
 
-Related: [[Diodes]]
+Related: [[Diode]]
 
 

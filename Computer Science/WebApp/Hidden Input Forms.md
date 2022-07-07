@@ -5,7 +5,7 @@ Sometimes, you may have a form that needs more than one value, but a single inpu
 
 ![[Pasted image 20220602031408.png]]
 
-We can add a type hidden input to the form. This will provide you better control to the backend whenever needed. 
+We can add a type hidden input to the form. This will provide you better control to the [[BackEnd Development|backend]] whenever needed. 
 ![[Pasted image 20220602031415.png]]
 
 We could utilize this when your are lacking a certain value input to a [[Post in HTML Forms|form]]

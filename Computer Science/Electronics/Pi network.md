@@ -19,7 +19,7 @@ $$R_c = \frac{R_1R_2 + R_2R_3 + R_3R_1}{R_3}$$
 <blockquote>"Each resistor in the Δ network is the sum of all possible products of Y resistors taken two at a time, divided by the opposite Y resistor"</blockquote>
 <hr>
 
-To find the resistance in the delta network, we just need to find the sum of all possible product in the Y network and divide it by the opposite Y [[resistors|resistor]]
+To find the resistance in the delta network, we just need to find the sum of all possible product in the Y network and divide it by the opposite Y [[Resistor|resistor]]
 
 ## Balanced Formula
 If all resistor in the Y Network have the same value then the formula will be

@@ -1,5 +1,5 @@
 ---
-aliases: [position]
+aliases: [vector3]
 ---
 
 # Position

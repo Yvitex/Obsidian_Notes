@@ -1,6 +1,19 @@
 # Present Continuous Tense
 We use this when an action is happening now or happens often, similar to [[Present Simple Tense]]
 
+## When to use
+We use it when talking about
+- Actions happening right now = "The guest are arriving now" and "The computer is loading"
+- A longer action in progress = "I am studying to learn English" and  "She's practicing martial arts"
+- Near future plans = "We're going on holiday next week" and  "I'm seeing my friends tommorow"
+
+```ad-Danger
+title: HOLD ON! WTF
+collapse: open
+I though "near future plans" should belong to [[Future Simple Tense]]
+
+```
+
 ## Rules
 Normal: Subject + am/are/is + Verb + [[Gerunds|ing]] + Object
 Negative: Subject + am/are/is + not + Verb + [[Gerunds|ing]]

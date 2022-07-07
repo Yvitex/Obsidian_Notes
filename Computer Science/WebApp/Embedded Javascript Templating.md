@@ -1,3 +1,7 @@
+---
+aliases: [ejs]
+---
+
 # EJS
 ## How to use with Express
 First, import [[Express]] and create an app instance. Then set the view render to ejs using `.set()`

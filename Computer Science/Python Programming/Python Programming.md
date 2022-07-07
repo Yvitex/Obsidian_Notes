@@ -12,4 +12,11 @@ Could also be this one
 
 Or your ex, or whatever.
 
+
+## Some cool tricks to know
+### Print Iteration
+```python
+print("-" *50)
+```
+
 #python

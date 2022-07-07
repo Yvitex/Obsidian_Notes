@@ -1,3 +1,6 @@
+---
+aliases: [digest]
+---
 # What is Cryptography?
 Security system to encrypt information using various method such as [[Hashing Function]]
 

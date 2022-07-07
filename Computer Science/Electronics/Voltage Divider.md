@@ -4,7 +4,7 @@ A voltage divider is a simple [[Types of Electric Circuit|series]] circuit compo
 ![[Pasted image 20220603091921.png]]
 
 ## Mathematical Formula
-To measure the [[voltage]] of individual [[Resistors|Resistor]]. We use the formula for [[Ohm's Law]]
+To measure the [[voltage]] of individual [[Resistor|Resistor]]. We use the formula for [[Ohm's Law]]
 $$v_1 = iR_1$$ $$v_2 = iR_2$$
 Then we could use the [[Kirchoff's Voltage Law|KVL]] $$-v +v_1 + v_2 = 0$$
 Substitute the equation and we have $$-v + iR_1 + iR_2 = 0$$

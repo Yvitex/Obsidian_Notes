@@ -1,3 +1,7 @@
+---
+aliases: [Vcc]
+---
+
 ## Just a Bunch of Formulas
 $$V_{BE} = V_B - V_E$$
 also there is a limit in V_be, it could only range from 0.6 - 0.7

@@ -8,6 +8,13 @@ They are also called as "helping verbs"
 - Are - Plural
 - Is - Singular
 
+### Common Auxillary Verb
+- Is/Was
+- Are/Were
+- Did/Does
+- Will/Could/Would
+
+
 In Subject Verb Aggreement, If it is does or do, we use the auxillary verbs as the main verbs to be changed and not the current [[Verb]].
 
 If it is are, is and am, we add -[[Gerunds|ing]] to the actual verb, check the example [[Present Continuous Tense|here]]

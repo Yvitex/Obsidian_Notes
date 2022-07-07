@@ -1,5 +1,5 @@
 # Types of Diodes
-These are the basic types of [[Diodes]]
+These are the basic types of [[Diode]]
 1. Zener Diode - have specific breakdown or zener voltage. used to generate fixed voltage
 ![[Pasted image 20220612104102.png]]
 2. Transient Voltage Supressor - used to protect sensitive coponent, reacts to [[Voltage]] spikes. 

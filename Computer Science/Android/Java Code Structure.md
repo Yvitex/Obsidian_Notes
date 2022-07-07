@@ -1,6 +1,6 @@
 # Java Basic Structure
 
-Java must always end with ';' unlike [[Python Programming]] and [[JavaScript]] that doesn;t require it.
+Java must always end with ';' unlike [[Python Programming]] and [[Javascript]] that doesn;t require it.
 
 ![[Pasted image 20220617034258.png]]
 

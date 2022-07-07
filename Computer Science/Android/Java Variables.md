@@ -6,7 +6,7 @@ Unlike [[Python Programming]] with dynamic typing feature, Java variables are st
 
 (Note: *Variables* are simply containers that occupies a memory, like a volume of a [[Matter is anything that has space and weight|matter]] that occupies space in reality)
 
-```
+```java
 String name = "Workdo-kun";
 
 System.out.println("Hello " + name + " and Welcome" );
@@ -21,7 +21,7 @@ But there are also many merits in this type of feature which promotes better con
 ## Data Types and Capacity
 Data types defines the type of operation we could use in a variable.
 
-- Boolean (boolean) - 1 bit - either 0 or 1 ([[Switching Operation]])
+- Boolean (boolean) - 8 bits - either 0 or 1 ([[Switching Operation]])
 - Byte (byte) - 8 bits - `[-128< byte > 127]` which is weird because [[IP Adress|8bits == 255]]
 - Short (short) - 16 bits - `[-290 < byte > 289]` another weird one, 2 * 127 == 254
 - Integer (int) - 32 bits
@@ -30,6 +30,20 @@ Data types defines the type of operation we could use in a variable.
 - Double (double) - 64 bits more accurate than float
 - Character (char) - 16 bits
 - String (String) - depends on the amount of char
+
+### In Table
+| Data Type | Memory | Range         |
+| --------- | ------ | ------------- |
+| Boolean   | 1 byte | 0 and 1       |
+| Byte      | 1 byte | -128 to 127   |
+| Short     | 2 byte | -290   to 289 |
+| Character | 2 byte |               |
+| Integer   | 4 byte |               |
+| Float     | 4 byte |               |
+| Long      | 8 byte |               |
+| Double    | 8 byte |               |
+| String    | It depends       |               |
+
 
 also. using long and float data type requires a symbol such as
 ```

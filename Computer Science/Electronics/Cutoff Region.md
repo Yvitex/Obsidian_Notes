@@ -19,6 +19,6 @@ $$I_C = 0$$
 
 Because the potential is less in the base, [[Electrons]] are inclined to go away from it to terminal with high potential. Take note that [[Electric Current]] moves in opposite direction which is why the current are moving to the base, while electrons are moving away. In other words, the nature of [[Electric Current|Current]] is to move from high potential or [[Voltage]] to low potential
 
-Related: [[Diodes]], 
+Related: [[Diode]], 
 
 

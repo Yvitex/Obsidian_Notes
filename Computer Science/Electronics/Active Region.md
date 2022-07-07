@@ -21,6 +21,6 @@ As we can see on the diagram, the [[Voltage]] of the collector is the highest so
 
 In here, when base current increase, the collector current increase.
 
-Related: [[Diodes]]
+Related: [[Diode]]
 
 

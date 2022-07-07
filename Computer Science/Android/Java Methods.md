@@ -31,7 +31,7 @@ It is so similar to [[Python Programming]]'s, functions but more wordy.
 
 ### With Parameters
 We need to specify the data type of the parameters, for example
-```
+```java
 public static void sayHello(String name){
 	System.out.println("Hello World and " + name);
 }

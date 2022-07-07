@@ -1,5 +1,5 @@
 # What are transistors?
-They are like 2 [[Diodes]] connected to each other. It came form 2 words, **transform and resistor**.
+They are like 2 [[Diode]] connected to each other. It came form 2 words, **transform and resistor**.
 
 
 

@@ -1,5 +1,23 @@
 # Present Simple Tense
-We use this when an action is happening now or happens often, similar to [[Present Continuous Tense]]
+Similar to [[Present Continuous Tense]].
+
+## When do we use it?
+We use it when talking about
+- Habits = "I like eating pizza"
+- Truths = "I speak 3 languages"
+- Unchanging Situation = "I need to exercise more"
+- Routines = "I always play games at night" and "I start work at 8:30 am"
+- Thoughts = "I love my parents very much" and "She learns spanish in College"
+- Opinion
+- Feeling
+- 5 senses
+
+```ad-Notice
+collapse: open
+We do not use present simple tense to an action happening now. Leave it to [[Present Continuous Tense]]
+
+```
+
 
 ## Rule
 Normal: Subject + Verb (present) + Object

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "f35141b23a638f3d",
+        "id": "5893f2d6e9195344",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Machine Learning/P-Value.md",
+            "file": "gsap.fromTo().md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "regression",
+                "query": "path:",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,23 +70,15 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/P-Value.md",
+                "file": "gsap.fromTo().md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "44cfcf5d9d103a21",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
             }
           }
         ]
@@ -101,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Machine Learning/P-Value.md",
+                "file": "gsap.fromTo().md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -124,7 +116,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5087618855792652,
+                  "scale": 0.3628873693012179,
                   "close": true
                 }
               }
@@ -134,19 +126,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 261
+    "width": 257
   },
-  "active": "f35141b23a638f3d",
+  "active": "5893f2d6e9195344",
   "lastOpenFiles": [
-    "Machine Learning/P-Value.md",
-    "Untitled.md",
-    "Machine Learning/Plotting Linear Regression for Model with Training Dataset.md",
-    "Machine Learning/Numpy Module.md",
-    "Three.js/Euler's Angle.md",
-    "Machine Learning/Splitting the Training and Testing Dataset.md",
-    "Machine Learning/Bayesian Information Criterion.md",
-    "Machine Learning/Residual Pattern.md",
-    "Machine Learning/Data Transformation.md",
-    "Machine Learning/Calculating Linear Regression using Training Dataset.md"
+    "gsap.fromTo().md",
+    "GSAP Programming.md",
+    "gsap.from().md",
+    "GSAP Properties.md",
+    "gsap.to().md",
+    "Images/Pasted image 20220708035110.png",
+    "Images/anime-you-made-it.gif",
+    "Three.js/Debug GUI.md",
+    "WebApp/React Design.md",
+    "WebApp/Complex Hooks.md"
   ]
 }

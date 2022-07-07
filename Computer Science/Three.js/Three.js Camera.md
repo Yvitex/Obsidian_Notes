@@ -4,8 +4,6 @@ aliases: [camera]
 # Camera
 This servers as the point of view in a [[WebGL Renderer|render]]
 
-
-
 ## Example Camera
 In this example, we will use a Perspective Camera
 
@@ -21,6 +19,8 @@ const sizes = {
 
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes/height)
 
+scene.add(camera);
+
 ```
 
 After that, we need to add the camera to the [[Three.js Scene|scene]]
@@ -31,7 +31,11 @@ We can also modify the [[Transform Object|Object's Position]] by using position 
 `camera.position.z = 3`
 
 ## Types
-1. Perspective Camera
+1. [[Perspective Camera]]
+2. [[Orthographic Camera]]
+3. Array Camera
+4. Cube Camera
+5. Stereo Camera
 
 
 #three

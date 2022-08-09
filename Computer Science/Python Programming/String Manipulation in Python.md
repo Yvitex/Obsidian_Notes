@@ -28,6 +28,6 @@ Modify this string below;
 `stringVar.strip()`
 
 
-Related: [[Python Programming]]
+Related: [[Python]]
 
 #python

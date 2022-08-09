@@ -1,0 +1,2 @@
+# Computer Storage
+We Save information in a computer with the help of 2 components, the [[Random Access Memory]] and the [[Storage]]. We store this data using the [[Processor]] where it access the [[Random Access Memory]] and [[Storage]] but it could access faster the [[Random Access Memory|ram]] compared to memory which is why it is important to use it. 

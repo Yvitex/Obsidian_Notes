@@ -7,7 +7,7 @@ The pins at the right side reads the [[Voltage Relationships in BJT|Vcc]], the l
 The schematic symbol for this is![[Pasted image 20220701052155.png]]
 When we turn the potentiometer, the representation arrow moves to either 1 or 3. Imagine when 5v is connected to 3, what will happen if the arrow is on 3. That's right, as the resistance decrease, the voltage also decrease, remember the [[Ohm's Law]]?
 $$V = IR$$
-[[voltage ]] is directly proportional to [[Resistance]]. The reverse will happen if the arrow is near 1, the voltage will increase. 
+[[Voltage ]] is directly proportional to [[Resistance]]. The reverse will happen if the arrow is near 1, the voltage will increase. 
 
 ## In Code
 For an instance that this is our circuit where the [[Analog Input Pin]] used is 0

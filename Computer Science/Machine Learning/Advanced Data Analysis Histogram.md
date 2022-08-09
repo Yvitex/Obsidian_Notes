@@ -2,7 +2,7 @@
 ![[Pasted image 20220605154157.png]]
 
 ## How can we create a meaningful Histogram for RAD?
-In the Boston information in [[First Step of Data Exploration]]. We can prin out data description using this code
+In the Boston information in [[Data Exploration]]. We can prin out data description using this code
 ```
 from sklearn.datasets import load_boston
 

@@ -1,7 +1,7 @@
 # Improving the Model
 ![[Pasted image 20220610094813.png]]
 
-Here is the [[Advanced Data Analysis Histogram|Histogram]] for our price data in [[First Step of Data Exploration]]. We could see that there are outliers and have a high skewness compared to normal distribution a.k.a. bellcurve
+Here is the [[Advanced Data Analysis Histogram|Histogram]] for our price data in [[Data Exploration]]. We could see that there are [[Outliers]] and have a high skewness compared to [[Normal Distribution]] a.k.a. bellcurve
 
 ![[Pasted image 20220610095025.png]]
 

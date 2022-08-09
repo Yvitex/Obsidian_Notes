@@ -9,4 +9,4 @@ When a person holds an wire with existing electrical current, we may feel a shoc
 
 ![[Pasted image 20220621120546.png]]
 
-And it just literally means is that the [[Electric Current|Current]] travels from the wire to the ground through you. And earth is a good [[Conductors are material composed of unstable atoms|conductor]] of [[electricity]] 
+And it just literally means is that the [[Electric Current|Current]] travels from the wire to the ground through you. And earth is a good [[Conductors are material composed of unstable atoms|conductor]] of [[Electricity]] 

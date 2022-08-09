@@ -1,4 +1,15 @@
+---
+aliases: [ndarrays]
+---
 # NUMPY 
+Why numpy? It is a module that is under the hood optimization is written actually in [[C Programming Language]] which is faster than [[Python]], this is needed for faster calculation and also in [[Machine Learning]], we always wanted to use [[Binary]] values rather than actual numbers. 
+
+This is a good alternative rather than using [[Python List]]. Instead of List, we are using Arrays. And also Numpy mean numerical python which is the backbone of python data science.
+
+Why it is fast can be explained in the concept of [[Vectorization]] that is implemented via [[Broadcasting]]
+
+It is very important to remember that all Numpy arrays are all type ndarrays
+
 ## Set-up
 ```
 import numpy as np
@@ -45,5 +56,5 @@ np.e
 ```
 
 
-Related: [[Python Programming]]
+Related: [[Python]]
   

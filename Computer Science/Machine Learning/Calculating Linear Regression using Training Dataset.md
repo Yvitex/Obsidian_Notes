@@ -16,7 +16,7 @@ from sklean.linear_model import LinearRegression
 regr = LinearRegression()
 regr.fit(X_train, y_train)
 ```
-Now, we can extract the intercept and coefficient
+Now, we can extract the intercept and [[Coefficient]]
 
 ```
 from sklean.linear_model import LinearRegression
@@ -28,7 +28,7 @@ print(f"Intercept: {regr.intercept_}")
 
 Intercept: 36.53305138282439
 
-In our formula in [[Multivariable Regression]], we only have 1 intercept or $\theta_0$ and multiple coefficient or $\theta_1$, so we need to print out the coefficient in a table, in fact, using [[Pandas]] module
+In our formula in [[Multivariable Regression]], we only have 1 intercept or $\theta_0$ and multiple [[Coefficient]] or $\theta_1$, so we need to print out the [[Coefficient]] in a table, in fact, using [[Pandas]] module
 
 ```
 from sklean.linear_model import LinearRegression
@@ -37,7 +37,7 @@ regr = LinearRegression()
 regr.fit(X_train, y_train)
 print(f"Intercept: {regr.intercept_}")
 
-pd.DataFrame(data=regr.coef_, index=X_train.columns, columns=['Coefficient'])
+pd.DataFrame(data=regr.coef_, index=X_train.columns, columns='Coefficient')
 ```
 `index=` will name our [[Exploring the Data (Methodology)|data points]] with the X_train variable in its columns. `columns=[]` will name our columns.
 
@@ -46,13 +46,13 @@ pd.DataFrame(data=regr.coef_, index=X_train.columns, columns=['Coefficient'])
 
 
 ## Conclusion
-As we could see, we could relate it to our previous [[Correlation]] models, when there is a [[Negative Correlation]], the coefficient will be negative, if there is a [[Positive Correlation]], then there is a possitive sign in the coefficient.  For example, Room number has a possitive correlation with price, therefore, the coefficient is positive 3.1.  Pollution is negatively correlated with price, therefore, NOX and PRICE has a negative Coefficient.
+As we could see, we could relate it to our previous [[Correlation]] [[Machine Learning Algoritm|models]], when there is a [[Negative Correlation]], the coefficient will be negative, if there is a [[Positive Correlation]], then there is a possitive sign in the coefficient.  For example, Room number has a possitive correlation with price, therefore, the coefficient is positive 3.1.  Pollution is negatively correlated with price, therefore, NOX and PRICE has a negative Coefficient.
 
 
 Also, we could see yhr [[Dummy Variable]] CHAS to have a positive correlation with price, and that should be also valid, i think?
 
 ## Accuracy
-We could also see their [[R_Squared|accuracy]] with `regr.score()` method, this accepts 2 variable. 
+We could also see their [[R_Squared|accuracy]] with regr.[[Score Accuracy Measure|score()]] method, this accepts 2 variable. 
 ```
 print("Training r-squared: ", regr.score(X_train, y_train))
 print("Testing r-squared: ", regr.score(X_test, y_test))
@@ -64,7 +64,7 @@ Output:
 "Testing r-squared: 0.6709339839115628"
 
 We could see that the testing r_squared have a lower score in our data. This is because our algorithm haven't seen it yet. 
-Actually, in this part, we are already starting to [[Evaluate and Deployment|evaluate]] our data
+Actually, in this part, we are already starting to [[Evaluation and Deployment|evaluate]] our data
 
 
 ```ad-Attention

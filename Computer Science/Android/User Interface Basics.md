@@ -1,5 +1,7 @@
-
-# XML Creation
+---
+aliases: [ui]
+---
+# [[Android Studio|XML]] Creation
 I just noticed, but isn't Java a name of a rice?![[Pasted image 20220616034109.png]]
 
 Actually, nevermind. I'm just getting hungry. The tools we are going to use for this tutorial is called [Android Studio](https://developer.android.com/studio)

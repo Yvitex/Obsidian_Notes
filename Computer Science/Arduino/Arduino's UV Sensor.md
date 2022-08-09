@@ -4,7 +4,7 @@ Different products have different specification. In this case, what we will use 
 
 ![[Pasted image 20220704103501.png]]
 
-The first thing to look for is the responsivity in nano meter. We could see that in this graph, the reactivty starts from 240nm, but what we are interested at is the range in the center. It must be 280nm - 350nm. Information above is stated in the [GUVA S-12SD Documentation](https://cdn-shop.adafruit.com/datasheets/1918guva.pdf) 
+The first thing to look for is the responsivity in nano meter. We could see that in this graph, the reactivty starts from 240nm, but what we are interested at is the range in the center. It must be 280nm - 350nm. Information above is stated in the [GUVA S-12SD Datasheet](https://cdn-shop.adafruit.com/datasheets/1918guva.pdf) 
 
 So browsking in the [wikipedia](https://en.wikipedia.org/wiki/Ultraviolet), there are different subtypes of ultraviolet rays
 ![[Pasted image 20220704104035.png]]
@@ -32,7 +32,7 @@ void loop(){
 }
 ```
 
-This will detect the UV index. First is we detect the sensorValue, then conver the sensorValue as a [[voltage]], divide it by 0.1 to get the UV index. 
+This will detect the UV index. First is we detect the sensorValue, then conver the sensorValue as a [[Voltage]], divide it by 0.1 to get the UV index. 
 
 The schematics for the above is
 ![[Pasted image 20220704112010.png]]

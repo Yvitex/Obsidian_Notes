@@ -1,5 +1,5 @@
 # Photoresistor
-Is also called as photocell or light dependent [[resistor]]. How it is dependent? Well, when there is no light, the [[Resistance]] of this resistor goes up but when there is a light hitting on the surface of the resistor, then the resistance goes down. And because the [[Resistance]] goes down and so is the [[Voltage]]. Remember the [[Ohm's Law]]?
+Is also called as photocell or light dependent [[Resistor]] which is a type of [[Semiconductor]]. How it is dependent? Well, when there is no light, the [[Resistance]] of this resistor goes up but when there is a light hitting on the surface of the resistor, then the resistance goes down. And because the [[Resistance]] goes down and so is the [[Voltage]]. Remember the [[Ohm's Law]]?
 $$V = IR$$
 Resistance is directly propotional to the voltage. To make use of it, we must utilize the art of contructing a [[Voltage Divider]] the same on how the builtin contruct of a [[Potentiometer]] is constructed.
 

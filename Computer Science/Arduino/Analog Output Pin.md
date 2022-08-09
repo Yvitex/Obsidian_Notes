@@ -9,7 +9,7 @@ Analog output pins are similar but different to a [[Digital Pin]]. They also cou
 The left represent a true analog output and the right represent the pulse width modulation
 
 ## Pulse Width Modulation
-At this photo, we could see the [[voltage]] output is difference for each time. This is done through *PWM* or [[Pulse Width Modulation]] .
+At this photo, we could see the [[Voltage]] output is difference for each time. This is done through *PWM* or [[Pulse Width Modulation]] .
 
 For an instance, a [[LED]] light was to be connected to an analog output. Using PWM, we set the output to be an alternating 5v and 0 very fast, the result will be evinced by light showing only half of its intensity.  In the other hand, analog output could also conceive a **True Analog Output**
 

@@ -9,4 +9,4 @@ aliases: [feature]
 5. Name of features
 6. Description of features
 
-We can do all this through [[First Step of Data Exploration]]
+We can do all this through [[Data Exploration]]

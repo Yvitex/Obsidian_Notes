@@ -21,3 +21,6 @@ TWi also exhibit a master-slave relationship where the arduino is the master and
 ## Function
 - It could communicate to all device by broadcasting. 
 - It could communciate to a specific device by creating an id. 
+
+
+When we are utilizing twi in a code, we need to include the `Wire.h` library

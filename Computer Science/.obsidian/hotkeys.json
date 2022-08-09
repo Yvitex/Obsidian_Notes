@@ -65,5 +65,22 @@
       ],
       "key": "Q"
     }
+  ],
+  "templater-obsidian:Template/Aliases.md": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-outliner:indent-list": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowRight"
+    }
   ]
 }

@@ -18,7 +18,7 @@ renderer.setSize(sizes.width, sizes.height)
 
 ![[Pasted image 20220706054435.png]]
 
-It's well and good but we still have an outline because a default css configuration. Inside our css. we set this
+It's well and good but we still have an outline because a default [[CSS]] configuration. Inside our [[CSS]]. we set this
 ```css
 * {
 	padding: 0;

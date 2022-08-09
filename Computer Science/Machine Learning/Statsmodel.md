@@ -20,7 +20,7 @@ pd.DataFrame({'coef': result.params, 'P-Values': round(result.pvalues, 3)})
 ```ad-Notice
 title: Pandas Detected
 collapse: closed
-We imported the values inside a [[Pandas]] dataframe
+We imported the values inside a [[Pandas]] [[Dataframe (Pandas)|dataframe]]
 
 ```
 

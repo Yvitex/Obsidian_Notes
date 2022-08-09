@@ -1,5 +1,5 @@
 # Twillio
-Twillio is a multipurpose API. Using [[Python Programming]], we could read the [documentation](https://www.twilio.com/docs/sms/quickstart/python) thatw ill enable you to send sms to your phone. 
+Twillio is a multipurpose API. Using [[Python]], we could read the [documentation](https://www.twilio.com/docs/sms/quickstart/python) thatw ill enable you to send sms to your phone. 
 ```python
 from twilio.rest import Client
 import os

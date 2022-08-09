@@ -2,14 +2,14 @@
 aliases: [java]
 ---
 # Java Basics
-Java is a [[Compiled Language]], while others such as [[Python Programming|python]] and [[Javascript]] are [[Interpreted language]]. That is why this has a lot more features than the others, but because it is compacted with features means it is a lot more complicated causing migrain. Please, send help.
+Java is a [[Compiled Language]], while others such as [[Python|python]] and [[Javascript]] are [[Interpreted language]]. That is why this has a lot more features than the others, but because it is compacted with features means it is a lot more complicated causing migrain. Please, send help.
 
 
 ## Make Buttons Functionable
 First of, I deleted the content in the textView widget from [[User Interface Basics]] lesson
 ![[Pasted image 20220616052336.png]]
 
-In the java file. I created 2 private variables that will get the 2 UI components(button , textView). The syntax goes like
+In the java file. I created 2 private variables that will get the 2 [[User Interface Basics|UI]] components(button , textView). The syntax goes like
 ```
 private Button myButton;
 private TextView myText;
@@ -21,7 +21,7 @@ import android.widget.Button;
 import android.widget.TextView;
 ```
 
-Next, inside the `@Override` syntax. We set the right methods to make button functionable
+Next, inside the `@Override` syntax. We set the right [[OOP|methods]] to make button functionable
 ```
 @Override  
 protected void onCreate(Bundle savedInstanceState) {  
@@ -30,7 +30,7 @@ protected void onCreate(Bundle savedInstanceState) {
 }
 ```
 
-Take note that, `setContentView(R.layout.activity_main);` enanle us to use the xml file from the [[User Interface Basics]] lesson named **activity_main.xml**. ![[Pasted image 20220616054151.png]]
+Take note that, `setContentView(R.layout.activity_main);` enanle us to use the [[Android Studio|xml]] file from the [[User Interface Basics]] lesson named **activity_main.xml**. ![[Pasted image 20220616054151.png]]
 
 Next is to store the widget inside the private variables. We could select the *id* of the widget by using `findViewByUserId(R.id)` method
 
@@ -138,7 +138,7 @@ myButton.setOnClickListener(new View.OnClickListener(){
 });
 ```
 
-It's already familiar as it is the same with [[Python Programming]] and [[Javascript]] . So when we enter a name, the device will look like this
+It's already familiar as it is the same with [[Python]] and [[Javascript]] . So when we enter a name, the device will look like this
 ![[Pasted image 20220616152635.png]]
 If we leave it blank, it will look like this. 
 ![[Pasted image 20220616152703.png]]

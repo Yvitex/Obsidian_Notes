@@ -36,7 +36,7 @@ print(round(y_train.corr(result.fittedvalues), 2))
 ```
 The [[Correlation]] between the two should be high. It must be. 
 
-To plot the [[Linear Regression]], we apply first a scatter plot with the fittedvalue as the predictor.
+To plot the [[Linear Regression]], we apply first a [[Scatter Plot]] with the fittedvalue as the predictor.
 ```python
 plt.figure(figsize=[14, 9])
 
@@ -49,7 +49,7 @@ plt.show()
 ```
 ![[Pasted image 20220623170326.png]]
 
-But as we could see, we are workign with a transformed PRICE data. We need to revert it back using Euler's number we could use using [[Numpy Module]] in the syntax of `np.e`
+But as we could see, we are workign with a transformed PRICE data. We need to revert it back using [[Euler's Number]] we could use using [[Numpy Module]] in the syntax of `np.e`
 
 ```python
 plt.figure(figsize=[14, 9])

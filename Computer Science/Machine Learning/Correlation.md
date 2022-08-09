@@ -25,7 +25,7 @@ Correlations are purposeful because it allows us to visualize the direaction and
 
 ![[Pasted image 20220605154157.png]]
 
-data from: [[First Step of Data Exploration]]
+data from: [[Data Exploration]]
 
 ```
 data["PRICE"].corr(data["RM"])
@@ -53,8 +53,8 @@ Looking closely, it is obvious that they will have this correlation because they
 We could also see the redundancy in the half side, only the first half is important.
 
 To remove the redundant parts, read [[Masking a DataFrame in Half]]
-To visualize this data, read [[Visualizing Individual Correlations]]
-Next is to read how to create a scatter plot to check distribution in [[Correlation Scatter Plot Visualization]]
+To visualize this data, read [[Correlation Matrix]]
+Next is to read how to create a [[Scatter Plot]] to check distribution in [[Correlation Scatter Plot Visualization]]
 
 ## Why do we measure correlation?
 - It is to avoid [[Multicollinearity]] which makes the relationship redundant, unreliable and nonsensical. This makes it hard for our variables to find the individual or unique contribution of the variables to the target. In our case, the price
@@ -66,4 +66,4 @@ Next is to read how to create a scatter plot to check distribution in [[Correlat
 - It only works on [[Correlations Problem on Linear Data|linear data]] 
 
 
-Related: [[First Step of Data Exploration]]
+Related: [[Data Exploration]]

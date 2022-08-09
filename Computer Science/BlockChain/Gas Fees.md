@@ -12,4 +12,4 @@ Convert into [[Ethereum|ether]]:$$2100000 \times 0.000000001 = 0.0021 eth$$
 Setting the gas price in the lowest might ignore your transaction.
 ![[Pasted image 20220629132000.png]]
 
-ethereum burns the excess coin yeah? Overpriced gas fees will cause the excess coin to burn. So when  minted token is less than burned token, the rate of ether will be diflationary.
+ethereum burns the excess coin yeah? Overpriced gas fees will cause the excess coin to burn. So when  minted [[Smart Contracts Popular Types|token]] is less than burned [[Smart Contracts Popular Types|token]], the rate of ether will be diflationary.

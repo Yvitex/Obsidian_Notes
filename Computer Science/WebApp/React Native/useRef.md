@@ -1,0 +1,2 @@
+# useRef
+Here is the documentational refference for [useRef](https://reactjs.org/docs/hooks-faq.html#is-there-something-like-instance-variables). Basically, it is a storage that could store any value. We could write a value inside it using the `.current` property and only inside the [[useEffect]] method.

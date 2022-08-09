@@ -1,5 +1,5 @@
 #  Seaborn's Multiple Graph
-[[Seaborn Module]] has a lot to offer but running multiple graphs at once could take sometime depending on the machine with [[Pandas]] dataframe
+[[Seaborn Module]] has a lot to offer but running multiple graphs at once could take sometime depending on the machine with [[Pandas]] [[Dataframe (Pandas)|dataframe]]
 
 ## Scatter Plot
 To do this, we simply use the function `sns.pairplot(dataframe)`
@@ -10,7 +10,7 @@ import seaborn as sns
 sns.pairplot(data)
 ```
 
-Data came from [[First Step of Data Exploration]] 
+Data came from [[Data Exploration]] 
 
 ![[Pasted image 20220609164850.png]]
 

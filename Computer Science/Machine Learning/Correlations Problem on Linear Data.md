@@ -6,4 +6,4 @@ aliases: [Anscombes quartet]
 ## Anscombe's Quartet
 ![[Pasted image 20220609052020.png]]
 
-This figure represents, different data plots but similar correlations. There are different relationships but similar [[Linear Regression]]. So it is important to analyze a [[Correlation]] while  [[Visualizing Individual Correlations]] with graphs and [[Correlation Scatter Plot Visualization|plots]].
+This figure represents, different data plots but similar correlations. There are different relationships but similar [[Linear Regression]]. So it is important to analyze a [[Correlation]] while  [[Correlation Matrix]] with graphs and [[Correlation Scatter Plot Visualization|plots]].

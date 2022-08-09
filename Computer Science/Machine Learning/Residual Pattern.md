@@ -10,7 +10,7 @@ This is a continuation from [[Bayesian Information Criterion]]
 ```
 
 ## Patterns
-Once we calculated the residuals and plotted it in a scatter plot. We may see a pattern, if it has a pattern, then our model is bad. Here are some of the bad models with bad residuals. 
+Once we calculated the residuals and plotted it in a [[Scatter Plot]]. We may see a pattern, if it has a pattern, then our model is bad. Here are some of the bad [[Machine Learning Algoritm|models]] with bad residuals. 
 
 ### Bad Patterns
 ![[Pasted image 20220623122554.png]]

@@ -1,0 +1,2 @@
+# Data Pipeline
+A work of a data engineer is to create a pipeline in order to extract data or [[Data Mining]] in a cluster form of [[Big Data]] to make critical business insights and utilize those data into an application

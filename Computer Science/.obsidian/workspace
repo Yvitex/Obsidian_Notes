@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "5893f2d6e9195344",
+        "id": "87b81bf32a9d8ada",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "gsap.fromTo().md",
+            "file": "Algorithm and Data Structures/Data Science Communication.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,10 +41,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:",
-                "matchingCase": true,
+                "query": "gpu",
+                "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -54,7 +54,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 284
+    "width": 291.5
   },
   "right": {
     "id": "a565141a525f8680",
@@ -70,14 +70,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "gsap.fromTo().md",
-                "collapseAll": false,
-                "extraContext": true,
+                "file": "Algorithm and Data Structures/Data Science Communication.md",
+                "collapseAll": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "gsap.fromTo().md",
+                "file": "Algorithm and Data Structures/Data Science Communication.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -116,7 +116,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3628873693012179,
+                  "scale": 0.5087618855792834,
                   "close": true
                 }
               }
@@ -126,19 +126,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 257
+    "width": 290.5
   },
-  "active": "5893f2d6e9195344",
+  "active": "675fe5214fd47c05",
   "lastOpenFiles": [
-    "gsap.fromTo().md",
-    "GSAP Programming.md",
-    "gsap.from().md",
-    "GSAP Properties.md",
-    "gsap.to().md",
-    "Images/Pasted image 20220708035110.png",
-    "Images/anime-you-made-it.gif",
-    "Three.js/Debug GUI.md",
-    "WebApp/React Design.md",
-    "WebApp/Complex Hooks.md"
+    "Pre Built Template Website.md",
+    "Algorithm and Data Structures/Data Science Communication.md",
+    "Machine Learning/Data Science.md",
+    "Machine Learning/GPU.md",
+    "Machine Learning/Confusion Matrix.md",
+    "Machine Learning/OS module.md",
+    "Machine Learning/Tensor Flow Workflow.md",
+    "Algorithm and Data Structures/Loading the Model in Tensor.md",
+    "Algorithm and Data Structures/Keras Sequential Build.md",
+    "Algorithm and Data Structures/Creating Transfer Learning Layer Keras.md"
   ]
 }

@@ -2,7 +2,7 @@
 aliases: [data type]
 ---
 # Java Variables
-Unlike [[Python Programming]] with dynamic typing feature, Java variables are static, meaning when we declare a variable as a **String**, it could only accept a string and not an integer similar to the [[Mongoose Create Operations]] when creating a schema
+Unlike [[Python]] with dynamic typing feature, Java variables are static, meaning when we declare a variable as a **String**, it could only accept a string and not an integer similar to the [[Mongoose Create Operations]] when creating a schema
 
 (Note: *Variables* are simply containers that occupies a memory, like a volume of a [[Matter is anything that has space and weight|matter]] that occupies space in reality)
 
@@ -78,3 +78,10 @@ All of the data types in the table are called [[Primitive Types]], string on the
 - [[Reference Type]] are dynamic in size
 
 The complexity now lies in the [[Java TypeCasting|operation]]s available for us to use, 
+
+```ad-Notice
+title: JUST IN!!!
+String is actually a class mata faka so it is not a primitive type
+
+```
+

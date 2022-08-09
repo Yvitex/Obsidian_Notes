@@ -1,6 +1,8 @@
 # Panda's Dataframe
-Using the module, we could set each data and column names into a beautiful table by using DataFrame attribute.
+## Documentation
+Here is the documentation for the [pandas module](https://pandas.pydata.org/pandas-docs/stable/)
 
+Using the module, we could set each data and column names into a beautiful table by using [[Dataframe (Pandas)|DataFrame]] attribute.
 ![[Pasted image 20220605154503.png]]
 
 In here, we set each data using boston's data attribute and the columns with each of their own names.  
@@ -77,10 +79,10 @@ dataframe.drop(["X"], axis=0) # rows
 
 ## Combining Dataframes to One
 ```python
-frame = [var1, var2, var3] # each var is also a dataframe
+frame = [var1, var2, var3] # each var is also a [[Dataframe (Pandas)|dataframe]]
 pd.concat(frame, axis=1)
 ```
 
 
 
-Related: [[Python Programming]]
+Related: [[Python]]

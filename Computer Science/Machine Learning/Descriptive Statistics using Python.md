@@ -10,7 +10,7 @@ It is a statistics that summarize or describe a collection of data enabling us t
 The 2 most important parts of Descriptive statistics is the mean and median. Sometimes they might have the same values but they are entirely different from each other
 
 ### Mean
-Is the average of the values
+[[Mean]] is the average of the values
 
 ##### Formula:
 $$\frac{x_1 + x_2  + \dots+ x_n}{n}$$
@@ -40,4 +40,4 @@ print(data.describe())
 ```
 ![[Pasted image 20220606110247.png]]
 
-Refer to [[First Step of Data Exploration]]
+Refer to [[Data Exploration]]

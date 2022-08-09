@@ -22,4 +22,4 @@ Reading the descriptions of the object data. We could say that there are 35 tota
 
 
 
-Related: [[First Step of Data Exploration]], [[Exploring the Data (Methodology)]]
+Related: [[Data Exploration]], [[Exploring the Data (Methodology)]]

@@ -20,9 +20,9 @@ VIF will accept 2 parameters. `exog` or where you will get the data from and `ex
 ```python
 variance_inflation_factor(exog=X_include_constant, exog_idx=1)
 ```
-In this example, we use the dataframe from calculating [[P-Value]] that has a constant. This will output to 1.7145250443932485
+In this example, we use the [[Dataframe (Pandas)|dataframe]] from calculating [[P-Value]] that has a constant. This will output to 1.7145250443932485
 
-To calculate all the features, what we are going to do is to create a for loop. And with [[Pandas]] dataframe, we could store the data cleanly to a table
+To calculate all the features, what we are going to do is to create a for loop. And with [[Pandas]] [[Dataframe (Pandas)|dataframe]], we could store the data cleanly to a table
 ```python
 list_data = []
 

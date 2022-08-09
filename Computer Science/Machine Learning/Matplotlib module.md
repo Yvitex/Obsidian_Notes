@@ -1,4 +1,6 @@
 # Matplotlib Module
+A powerul tool for data visualization integrated with [[Pandas]] as well as [[Numpy Module]].
+To use this, we follow [[Matplotlib's Workflow]]![[Pasted image 20220728110002.png]]
 To use this, we first need to import it
 
 `import matplotlib.pyplot as plt`
@@ -39,7 +41,7 @@ plt.show()
 plt.bar(row_list, height=height_list)
 ```
 
-Related: [[Pandas]], [[Python Programming]]
+Related: [[Pandas]], [[Python]]
 
 
 

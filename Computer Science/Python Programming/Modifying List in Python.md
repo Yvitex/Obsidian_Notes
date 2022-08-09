@@ -33,6 +33,6 @@ tis_list.pop(0) == ["second", "third", "fourth"]  # deletes the element at index
 ```
 
 
-Related: [[Python Programming]]
+Related: [[Python]]
 
 #python

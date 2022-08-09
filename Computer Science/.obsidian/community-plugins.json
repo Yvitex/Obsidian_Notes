@@ -1,5 +1,7 @@
 [
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
-  "obsidian-admonition"
+  "obsidian-admonition",
+  "templater-obsidian",
+  "obsidian-outliner"
 ]

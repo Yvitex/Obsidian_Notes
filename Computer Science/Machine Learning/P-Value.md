@@ -10,7 +10,7 @@ Then it is *Significant*
 If $$P-Val > 0.05$$
 Therefore it is *Not Significant*
 
-In [[Python Programming]], what module we're going to use is called [[Statsmodel]], this will calculate the p-values automatically as fast as 3 lines of code. 
+In [[Python]], what module we're going to use is called [[Statsmodel]], this will calculate the p-values automatically as fast as 3 lines of code. 
 
 ## Coding
 Import *statsmodel*
@@ -36,7 +36,7 @@ print(result.params) # prints out the coefficients
 print(result.pvalues) # prints out the significance
 ```
 
-Though we could bettwe visualize this using [[Pandas]] dataframe. And also round the p-values to prevent its default format in significant notation
+Though we could bettwe visualize this using [[Pandas]] [[Dataframe (Pandas)|dataframe]]. And also round the p-values to prevent its default format in significant notation
 ```python
 import pandas as pd
 

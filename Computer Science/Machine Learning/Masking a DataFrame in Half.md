@@ -13,7 +13,7 @@ Suppose, you have this data frame from [[Correlation]] section
 And you want to erase the **top** triangle of your data frame.
 ![[Pasted image 20220606123158 - Copy (2).png]]
 
-What we're going to do is to first create a initial mask composed of composed of nothing but zero using the [[Numpy Module]] that has a similar dataframe structure  like our correlation table
+What we're going to do is to first create a initial mask composed of composed of nothing but zero using the [[Numpy Module]] that has a similar [[Dataframe (Pandas)|dataframe]] structure  like our correlation table
 
 ```
 import numpy as np
@@ -46,5 +46,5 @@ mask[triangle_indices] = True
 Printing out the mask will output: 
 ![[Pasted image 20220606164116.png]]
 
-Now this will be our mask to be applied in [[Visualizing Individual Correlations]]
+Now this will be our mask to be applied in [[Correlation Matrix]]
 

@@ -1,7 +1,6 @@
 # Splitting the training and testing dataset
 What's going here is that we are separating the training and testing data and shuffling them accordingly. It is important to shuffle the data into randomness to erase the clear pattern where the [[Exploring the Data (Methodology)|data point]] is allocated
 
-
 ## Code
 We can simply do this by using [[SKLearn Module]]'s `train_test_split()` function
 We first need to import this module from sklearn's `model_selection`
@@ -20,7 +19,7 @@ features = data.drop('PRICE', axis=1)
 
 ```
 
-Now is the time to split  the data out. `train_test_split()` method returns a tuple with 4 elements. We need to declare 4 variables to catch it. This accepts some parameters, first is the features, next is the target, then the test_size that will indicate the ratio of the number of test variable over total length of features, and random state that is entirely optional.
+Now is the time to split  the data out. `train_test_split()` method returns a tuple with 4 elements. We need to declare 4 variables to catch it. This accepts some parameters, first is the features, next is the [[Target]], then the test_size that will indicate the ratio of the number of test variable over total length of features, and random state that is entirely optional.
 
 ```
 from sklearn.model_selection import train_test_split
@@ -49,3 +48,4 @@ this justify the 80:20 ratio.
 
 
 Now, we can [[Calculating Linear Regression using Training Dataset]]
+A more advance way that could create validation sets can be read at [[Three Sets in Code]]

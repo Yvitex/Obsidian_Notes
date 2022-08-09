@@ -2,7 +2,7 @@
 One of the most popular data tranformation approach in [[Linear Regression]] is called **Log Transformation**
 
 ## Log Transformation
-This helps reduce the [[Improving the model|skewness]] of [[Seaborn Histogram|Histogram]] and [[Linear Regression]] models. 
+This helps reduce the [[Improving the model|skewness]] of [[Seaborn Histogram|Histogram]] and [[Linear Regression]] [[Machine Learning Algoritm|models]]. 
 
 #### How does it work?
 $$\ln(12) = 2.4849$$
@@ -22,7 +22,7 @@ To this, with skeness of -0.33, closer to a bell curve.
 ![[Pasted image 20220610150504.png]]
 
 ## Code
-The code to this is by simply using [[Numpy Module]]'s `np.log()` which accepts the [[Pandas]] dataframe or series as a parameter. 
+The code to this is by simply using [[Numpy Module]]'s `np.log()` which accepts the [[Pandas]] dataframe or [[Series (Pandas)|series]] as a parameter. 
 
 ```
 import numpy as np
@@ -43,7 +43,7 @@ sns.histplot(y_log, kde=True, bins=50)
 plt.show()
 ```
 
-How about in a [[Linear Regression]] with scatter plot in [[Seaborn Module]]
+How about in a [[Linear Regression]] with [[Scatter Plot]] in [[Seaborn Module]]
 
 ```
 import seaborn as sns
@@ -59,7 +59,7 @@ Transforming this data using Logarithmic Transform. We input the same argument, 
 ```python
 import seaborn as sns
 
-tranformed_data = features # note that features is a variable of a dataframe data without Price columns
+tranformed_data = features # note that features is a variable of a [[Dataframe (Pandas)|dataframe]] data without Price columns
                              
 transformed_data["PRICE_LOG"] = np.log(data["PRICE"])
 
@@ -67,7 +67,7 @@ sns.lmplot(x="LSTAT", y="PRICE_LOG", data=transformed_data, line_kws={"color": "
 			scatter={"s": 100, "alpha": 0.5})
 ```
 
-Calculating the intercept and coefficient. We could modify the price into its log form before creating the training and test data split using `train_test_split()` from [[SKLearn Module]]
+Calculating the intercept and [[Coefficient]]. We could modify the price into its log form before creating the training and test data split using `train_test_split()` from [[SKLearn Module]]
 
 ```
 price_log = np.log(data["PRICE"])
@@ -87,5 +87,5 @@ pd.DataFrame(data=regr.coef_, index=X_train.columns, columns=['COEF'])
 ![[Pasted image 20220610160228.png]]
 
 
-reversing back the coefficient, we use eulers number. The formula would be $$e^n$$
-- n is the coefficient values in log form
+reversing back the [[Coefficient]], we use eulers number. The formula would be $$e^n$$
+- n is the [[Coefficient]] values in log form

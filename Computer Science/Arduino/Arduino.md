@@ -2,7 +2,7 @@
 ![[Pasted image 20220621042733.png]]
 
 Genuino and Arduino ar practically the same aside from their brand. The brain of the arduino uno is a [[Microcontroller]] called
-**Atmel ATmega**, Take note that a microcontroller is different from [[Microprocessor]] and cpu. It has a lot of digital input and output pin allowing the microconroller to interact to the world around it and also it cannot run a program or any digital things. Microcontroller does not run an OS. 
+**Atmel ATmega**, Take note that a microcontroller is different from [[Microprocessor]] and [[Processor|cpu]]. It has a lot of digital input and output pin allowing the microconroller to interact to the world around it and also it cannot run a program or any digital things. Microcontroller does not run an OS. 
 
 ## Atmel ATmega 328p
 ![[Pasted image 20220621043208.png]]

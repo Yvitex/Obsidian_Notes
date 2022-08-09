@@ -9,7 +9,7 @@ In multivariable regression, we consider multiple $\theta_1x$ values.
 ## Formula
 $$\hat{y} = \theta_0 + \theta_1x_1 + \theta_2x_2 + \dots + \theta_nx_n$$
 Accordinly, x is our [[Exploring the Data (Methodology)|features]] or independent variable so we could say $$\hat{y} = \theta_0 + \theta_1RM + \theta_2NOX + \dots + \theta_nLSTAT$$
-Based on the data of example data sheet [[First Step of Data Exploration|Boston Houses]]
+Based on the data of example data sheet [[Data Exploration|Boston Houses]]
 
 Now, to calculate this, we first need to [[Splitting the Training and Testing Dataset]]
 

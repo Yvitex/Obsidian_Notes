@@ -14,7 +14,7 @@ Here, what we will use in calculating both the [[R_Squared]] and Bayesian Inform
 import statsmodels as sm
 ```
 
-For an instance we already calculated the `fit()` of a [[P-Value]] model. We could use the fit to conceive the result data. 
+For an instance we already calculated the [[Fit the data to the model and make a prediction|fit()]] of a [[P-Value]] model. We could use the fit to conceive the result data. 
 ```python
 X_include_constant = sm.add_constant(X_train)
 model = sm.OLS(y_train, X_include_constant)
@@ -23,7 +23,7 @@ result = model.fit()
 org_coef = pd.DataFrame({'coef': result.params, 'P-Values': round(result.pvalues, 3)}) # for later use
 ```
 
-Then to calculate the BIC and [[R_Squared]] is by, ofcourse, reading the [documentation](https://www.statsmodels.org/dev/generated/statsmodels.regression.linear_model.RegressionResults.html). We could find the documentation by reading the mini-docs in jupyter by pressing shift + alt on result object. 
+Then to calculate the BIC and [[R_Squared]] is by, ofcourse, reading the [documentation](https://www.statsmodels.org/dev/generated/statsmodels.regression.linear_model.RegressionResults.html). We could find the documentation by reading the mini-docs in [[Jupyter]] by pressing shift + alt on result object. 
 ![[Pasted image 20220623112819.png]]
 
 Here we will found that, this could cacluate the r_square and BIC though dot syntax `rsquared` and `bic`
@@ -40,7 +40,7 @@ R-Squared: 0.7930234826697582
 Now, because the [[P-Value]] of some features are greater than 0.05. Should we remove them?
 ![[Pasted image 20220623050254.png]]
 
-If we remove the INDUS columns. What we need to do is to use `.drop()` syntax of [[Pandas]] dataframe
+If we remove the INDUS columns. What we need to do is to use `.drop()` syntax of [[Pandas]] [[Dataframe (Pandas)|dataframe]]
 ```python
 X_include_constant = sm.add_constant(X_train)
 X_include_constant = X_include_constant.drop(["INDUS"], axis=1)
@@ -77,7 +77,7 @@ R-Squared: 0.7918657661852815
 
 Now, it is a lot lower than before. We do not remove "CHAS" as it is only an index that adds some explanatory value. 
 
-if we compare the P_values and Coef using [[Pandas]] dataframe
+if we compare the P_values and Coef using [[Pandas]] [[Dataframe (Pandas)|dataframe]]
 
 ```python
 frame = [org_coef, coef_without_indus, coef_reduced]

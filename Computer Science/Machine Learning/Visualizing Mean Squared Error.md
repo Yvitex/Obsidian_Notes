@@ -23,7 +23,7 @@ Then we need to calculate the MSE of each combination of theta 0 and theta 1. We
 Now, create a 3d graph.
 ![[Pasted image 20220605144858.png]]
 
-Note that gca method is already depricated. We use `.add_subplot()` instead. This will result into
+Note that gca method is already depricated. We use  [[Creating Data and Plot|add_subplot()]] instead. This will result into
 ![[Pasted image 20220605144911.png]]
 
 
@@ -39,7 +39,7 @@ This happens because we only have 5 by 5 data. Increase the number of values int
 
 ![[Pasted image 20220605144957.png]]
 
-Now, to actually plot the gradient descent, we need to calculate the slope in each parameter. In order to do that, we need to get the partial derivative of the Mean Squared Error. If y hat is equivalent to the linear gradient formula, then the formula to be used is:
+Now, to actually plot the gradient descent, we need to calculate the slope in each parameter. In order to do that, we need to get the partial derivative of the Mean Squared Error. If [[Y Hat]] is equivalent to the linear gradient formula, then the formula to be used is:
 ![[Pasted image 20220605145012.png]]
 
 First formula is the partial derivative of mse with respect to theta 0  
@@ -50,7 +50,7 @@ Create a function that will calculate both of this values and return it as a num
 ![[Pasted image 20220605145029.png]]
 
 
-We could now let the machine learn through prediction supplyign it with a multiplier and an initial value
+We could now let the machine learn through [[Prediction]] supplyign it with a multiplier and an initial value
 
 ![[Pasted image 20220605145046.png]]
 

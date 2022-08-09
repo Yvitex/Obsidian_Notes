@@ -1,3 +1,6 @@
+---
+aliases: [dht22, temperature sensor, humidity sensor]
+---
 # DHT22
 Read the technical specification [here](https://www.sparkfun.com/datasheets/Sensors/Temperature/DHT22.pdf). 
 ![[Pasted image 20220704165158.png]]
@@ -129,6 +132,13 @@ void loop(){
 	Serial.print(" *C ");
 	Serial.print(hif);
 	Serial.println(" *F");
-
 }
 ```
+
+
+## Other temperature sensor
+- [[Temperature and Humidity Sensor|dht22]]
+- [[Thermistor]]
+- [[TMP36]]
+- [[MCP9808]]
+- [[BMP180]]

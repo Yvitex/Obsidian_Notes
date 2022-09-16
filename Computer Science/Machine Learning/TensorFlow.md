@@ -7,7 +7,7 @@ import tensorflow as tf
 ```
 
 Along this, we might also want to import [[Tensor Flow Hub]]
-We also want to check whether we have an access to [[gpu]]
+We also want to check whether we have an access to [[GPU]]
 ```python
 print("Gpu Access: ", "Present 😎" if tf.config.list_physical_devices("GPU") else "Not Present 🔪")
 ```

@@ -1,0 +1,31 @@
+# Motherboard
+Is a [[Printed Circuit Board]] that links different computer parts in a computer
+
+## Parts
+- [[Random Access Memory]] and Ram SlOT![[Pasted image 20220906174130.png]]
+- [[Processor|cpu]] chip and Chip Slot
+- [[PCI Chip and Slot]]
+- [[Read Only Memory]]
+- [[North Bridge]]
+- [[South Bridge]]
+- [[CMOS Backup Battery]]
+- [[Power Supply Plug]]
+- [[Integrated Drive Electronics Cable]]
+- [[SATA Cable]]
+- [[eSata Port]]
+- [[eSatap Port]]
+- [[Small Computer System Interface]]
+- [[Parallel Port]]
+- [[Serial Port]]
+- [[PS 2 port]]
+- [[USB Port]]
+- [[RJ-45 Port]]
+- [[HDMI]]
+- [[Audio Port]]
+- [[Heat Sink]]
+- [[Switches and Jumper]]
+- [[Capacitor]]
+- [[Transistors]] and [[Metal Oxide Semiconductor Field Effect Transistor|MOSFET]]
+- [[Diode]]
+- [[VRMs]]
+- [[Mounting Screw Hole]]

@@ -7,7 +7,7 @@ This is just basically a way to separate sensitive information to another docume
 ## Set-up
 We could use the module called [dotenv](https://www.npmjs.com/package/dotenv). to install this module. we use this command in the terminal
 ```
-[[npm]] i dotenv
+npm i dotenv
 ```
 
 In the first most part of our node.js source code. 

@@ -2,7 +2,7 @@
 ## Given
 ![[Pasted image 20220606123158.png]]
 
-Find the [[correlation]] plot for NOX or nitrogen oxide emission and DIS or distance away from emplyment center. Refer to [[Data Exploration]]
+Find the [[Correlation]] plot for NOX or nitrogen oxide emission and DIS or distance away from emplyment center. Refer to [[Data Exploration]]
 
 ## Two ways to Do this
 ### Matplotlib

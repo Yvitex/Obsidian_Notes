@@ -2,7 +2,13 @@
 aliases: [ram]
 ---
 # Ram
-A temporary and volatile memory use to store data fast in a computer system. It is generally composed of cells where each cell could hold 8 bits or 1 byte of data and each cell is marked with a [[Memory address]]. Each [[Memory address]] if connected individually with the [[Memory Controller]] that could access each cell from any point, hence the term ==random access== 
+![[Pasted image 20220906174024.png]]
+A temporary and volatile memory use to store data fast in a computer system.
+
+RAM could have many types such as [[SD RAM]] and [[DDR RAM]]. DDR RAm is relatively new compared to SD RAM.  RAM have their own speed and capacity. 
+
+
+RAM is generally composed of cells where each cell could hold 8 bits or 1 byte of data and each cell is marked with a [[Memory address]]. Each [[Memory address]] if connected individually with the [[Memory Controller]] that could access each cell from any point, hence the term ==random access== 
 
 ![[Pasted image 20220802035452.png]]
 ```ad-Attention

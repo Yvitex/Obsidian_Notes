@@ -4,7 +4,7 @@ aliases: [SimpleImputer()]
 # Scikit Learn Version
 Much longer process but the most correct one i think. [[SciKitLearn]] Provide us with methods that will do the [[Get the Data Ready|Data preparation]] for us. The process would be $$Split X and y \rightarrow 3sets \rightarrow Impute/Delete \rightarrow Convert and Encode$$
 
-The process would be to separate [[Exploring the Data (Methodology)|feature]] from the [[target]].  [[Splitting the Training and Testing Dataset]]. [[Imputation or Deletion]] then [[Convert classification string values into Numerical Data]].
+The process would be to separate [[Exploring the Data (Methodology)|feature]] from the [[Target]].  [[Splitting the Training and Testing Dataset]]. [[Imputation or Deletion]] then [[Convert classification string values into Numerical Data]].
 
 ```python
 car_sales_missing = pd.read_csv("car-sales-extended-missing-data.csv")
@@ -113,7 +113,7 @@ Then we could continue to [[Fit the data to the model and make a prediction]]
 
 ## Params
 - strategy="constant" : will fill missing values in a constant manner meaning that the value don't change
-- strategy="mean" : will fill the missing values with the [[mean]] of all existing values in the column
+- strategy="mean" : will fill the missing values with the [[Mean]] of all existing values in the column
 - fill_value : will determine what to input to the missing values if it is set to constant
 
 

@@ -86,7 +86,7 @@ plt.show()
 
 - TAX and INDUS have high correlation, taxes are higher to places with lots of business
 - TAX and RAD have a very high correlation, but this is a false alarm information because RAD unit is an index, it is discrete rather than continuous
-- Another example of discrete values is at CHAS, it is only a [[binary]] data with 2 possible values
+- Another example of discrete values is at CHAS, it is only a [[Binary]] data with 2 possible values
 - If we analyze our price which is our target, the lowest correlation we have is CHAS, but because it is a discrete value, we neglect it. The next lowest is the DIS, it is close to [[No Correlation|0]], furthermore,
 - DIS and INDUS have a negative correlation. When distance from employment center increase from the houses, the businesses decrease which makes sense as usually, area with high business activities are also accompanied with high number of employment centers. The higher the distance from the employment center, the lower the industry the area is
 

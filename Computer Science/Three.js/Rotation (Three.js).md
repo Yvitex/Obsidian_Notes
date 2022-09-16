@@ -1,5 +1,5 @@
 ---
-aliases: [rotation, quarternion]
+aliases: [rotation(), quarternion, lookAt()]
 ---
 # Rotation
 Like [[Position (Three.js)|position]], and [[Scale (Three.js)|scale]], this utilizes the xyz coordinate system but instead of [[Vector3]], this uses [[Euler's Angle]]

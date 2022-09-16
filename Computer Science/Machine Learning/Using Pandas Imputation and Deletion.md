@@ -18,7 +18,7 @@ The same is the color string classification
 car_sales_missing["Colour"].fillna("Missing", inplace=True)
 ```
 
-The Odometer is a range of integers and we could acturlly just find the [[mean]]
+The Odometer is a range of integers and we could acturlly just find the [[Mean]]
 ```python
 car_sales_missing["Odometer (KM)"].fillna(car_sales_missing["Odometer (KM)"].mean(), inplace=True)
 ```

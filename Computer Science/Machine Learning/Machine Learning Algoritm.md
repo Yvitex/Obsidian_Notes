@@ -2,7 +2,7 @@
 aliases: [model, estimator]
 ---
 # Machine Learning Algorithm
-Sometimes called as models. A normal [[Algorithm]] is a set of instruction with inputs to create a desired output. [[Machine learning]] algoritm on the other hand are input with output, and through this data, will find the instruction that will provide the best output.
+Sometimes called as models. A normal [[Algorithm]] is a set of instruction with inputs to create a desired output. [[Machine Learning]] algoritm on the other hand are input with output, and through this data, will find the instruction that will provide the best output.
 
 ![[Pasted image 20220725101711.png]]
 

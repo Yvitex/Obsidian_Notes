@@ -18,7 +18,7 @@ npm install passport passport-local passport-local-mongoose express-session
 
 After this installations. We now should verufy its existence inside **package.json**. We now import this module to our source code as in
 
-```
+```js
 const passport = require("passport");
 const passportLocalMongoose = require("passport-local-mongoose")
 const session = require("session")
@@ -27,7 +27,7 @@ const session = require("session")
 We do not need to import `passport-local` as it is already inside the `passport-local-mongoose`
 
 Now, we need to initialize all modules to be used. First is the `session` using [[Express]] method `.use()`
-```
+```js
 app.use(session({
 	secret: "Hello World",
 	resave: false,
@@ -43,7 +43,7 @@ app.use(session({
  Note2: secret string should be an [[Environmental Variables]])
 
 Next is to initialize the `passport`
-```
+```js
 app.use(passport.initialize());
 app.use(passport.session());
 ```
@@ -55,7 +55,7 @@ Also, this is placed before database connection.
 
 To use the `passportLocalMongoose`, we will integrate it with the passport using `plugin()` method. Just before creating a schema... integrate the plugin with the Schema
 
-```
+```js
 mongoose.connect("mongodb:\\0.0.0.0:27017/userDB");
 const UserSchema = mongoose.Schema({
 	email: String, 

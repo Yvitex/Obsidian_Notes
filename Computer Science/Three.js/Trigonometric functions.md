@@ -9,3 +9,10 @@ Start from 0 then goes upward
 
 
 Converging a sin and cosine forms a circle or circular pattern.
+We could spawn mesh usign this randomly using
+```js
+const randomAngle = Math.random() * Math.PI * 2
+const x = Math.sin(randomAngle)
+const z = Math.cos(randomAngle)
+```
+

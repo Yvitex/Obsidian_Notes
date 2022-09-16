@@ -21,7 +21,7 @@ THis is important to know where the [[Machine Learning Algoritm|model]] is getti
 Next is to create a [[Classification Report]]
 ![[Pasted image 20220805084630.png]]
 
-As we already know, when [[False negative]] is 0, [[Recall]] would be 100, if [[False positive]] is 0, [[precision]] would be 0. We could also refer to the [[Confusion Matrix]] we just created. 
+As we already know, when [[False negative]] is 0, [[Recall]] would be 100, if [[False positive]] is 0, [[Precision]] would be 0. We could also refer to the [[Confusion Matrix]] we just created. 
 
 Then create a graph represent the [[K-fold Precision Validation|cross_val_score()]] of [[Precision]], [[Accuracy]], [[Recall]] and [[F1 Score]]
 ![[Pasted image 20220805091553.png]]

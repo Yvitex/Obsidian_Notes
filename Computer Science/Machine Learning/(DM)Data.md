@@ -6,5 +6,5 @@ There are 2 main types of data we must think of
 - [[Structured Data]]
 - [[Semi Structured Data]]
 - [[Unstructured Data]]
-- [[Binary Data]]
+- [[Binary]]
 

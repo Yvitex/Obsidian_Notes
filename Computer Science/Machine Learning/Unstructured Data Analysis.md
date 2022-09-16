@@ -9,5 +9,5 @@ This section will also discuss what the typical [[Get the Data Ready|Data prepar
 Turning it into [[Bar Plot(Pd)]]
 ![[Pasted image 20220806101204.png]]
 
-The [[mean]] and [[Descriptive Statistics using Python|median]]
+The [[Mean]] and [[Descriptive Statistics using Python|median]]
 ![[Pasted image 20220806101313.png]]

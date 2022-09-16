@@ -1,5 +1,5 @@
 # Graphical Processing Unit
-Check whether we have an access to [[gpu]] using [[TensorFlow]]
+Check whether we have an access to [[GPU]] using [[TensorFlow]]
 ```python
 print("Gpu Access: ", "Present 😎" if tf.config.list_physical_devices("GPU") else "Not Present 🔪")
 ```

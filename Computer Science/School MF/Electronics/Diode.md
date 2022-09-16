@@ -15,3 +15,5 @@ If the negative polarity is connected to the anode, then it is in the [[Reverse 
 
 
 Interaction between the p and n type semiconductor creates a junction called [[P-N Junction]] creating what we call a depletion region.
+
+![[Pasted image 20220908112528.png]]

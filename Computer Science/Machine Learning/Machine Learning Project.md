@@ -8,5 +8,4 @@ Here are the steps to take to performa a [[Machine Learning]] prject int he most
 5. [[Baseline Model]]
 6. [[Experiment on Model]]
 7. [[Evaluate the Model]]
-8. [[Feature Importance]]
-9. 
+8. [[Feature Importance]

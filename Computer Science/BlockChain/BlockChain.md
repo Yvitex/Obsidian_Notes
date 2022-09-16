@@ -1,6 +1,6 @@
 # What BlockChain?
 1. A solution to a monetary problem
-2. A network where any can access to
+2. A [[Network]] where any can access to
 3. It is a shared [[Databases|database]] 
 4.  A [[Blockchain Nodes|computer]] that manages transaction
 

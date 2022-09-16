@@ -1,5 +1,5 @@
 {
-  "cssTheme": "Obsidianite",
+  "cssTheme": "Things",
   "enabledCssSnippets": [
     "checkbox",
     "clutter-free-formatting",
@@ -10,6 +10,7 @@
     "omega-hr",
     "center-images"
   ],
-  "baseFontSize": 14,
-  "translucency": false
+  "baseFontSize": 15,
+  "translucency": false,
+  "theme": "obsidian"
 }

@@ -15,6 +15,11 @@ The [[Fixed Bias]] above is the diagram. The thing that will determine the maxim
 
 $V_{CE}$  in this Diagram is: $$V_{CE} = V_C - V_E$$
 $V_E = 0$  so: $$V_{CE} = V_C$$
-Then the value of V_C is: $$V_{C} = V_{CC} - V_{RC} - V_D$$
-$$V_{RC} =  I_CR_C$$
-Therefore: $$V_{CE} = V_{CC} - I_CR_C - V_D$$
+Then the value of V_C is: 
+
+$$V_{C} = V_{CC} - V_{RC} - V_D$$
+
+$$V_{RC} = I_C R_C$$
+
+Therefore: 
+$$V_{CE} = V_{CC} - I_C R_C - V_D$$

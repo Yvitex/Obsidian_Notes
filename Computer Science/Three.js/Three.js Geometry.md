@@ -3,7 +3,7 @@ aliases: [geometry, vertices, faces]
 ---
 
 # What is Three.js Geometry?
-A figure or a shape we create as a [[Three.js Mesh|mesh]] property and also for [[Particles]]
+A figure or a shape we create as a [[Three.js Mesh|mesh]] property and also for [[Three,js Particles]]
 
 ## Basic Cube Geometry
 Three.js already has a specified class in creating a cube called **BoxGeometry** and we will just need to create a copy of it
@@ -40,7 +40,7 @@ The cross is the vertices, the lines are the edge and the solid shape that forms
 - normals
 - etc...
 
-These are specifically the case when we are creating [[Particles]]
+These are specifically the case when we are creating [[Three,js Particles]]
 
 ## Built In Geometries
 - Box ![[Pasted image 20220706113124.png]]

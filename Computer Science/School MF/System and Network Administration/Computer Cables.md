@@ -1,0 +1,22 @@
+# Computer Cables
+There are many different types of computer Cables to Mention
+
+- [[Integrated Drive Electronics Cable ]]
+- [[Video Graphics Array cable]]
+- [[Digital Visual Interface cable]]
+- [[High Definition Multimedia Interface Cable]]
+- [[Displayport Cable]]
+- [[Parallel Cable]]
+- [[Serial Cable]]
+- [[Personal System/2 cable]]
+- [[Universal Serial Bus cable]]
+- [[Firewire cable]]
+- [[Thunderbolt cable]]
+- [[Lightning Cable]]
+- [[Audio Jack cable]]
+- [[Optical Fiber Audio Cable]]
+- [[Ethernet]]
+- [[Telephone Cable]]
+- [[Fiber Optic Cable]]
+- [[Power Cords]]
+- [[DC Barrel Jack]]

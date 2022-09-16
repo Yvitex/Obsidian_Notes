@@ -1,6 +1,6 @@
 # How Secure is the Blockchain?
 
-To Hijack or tampers this system, you need a very powerful supercomputer that could compete against 51% of the [[Blockchain Nodes|nodes]] to recalculate the past histories and any other transaction in the whole network.
+To Hijack or tampers this system, you need a very powerful supercomputer that could compete against 51% of the [[Blockchain Nodes|nodes]] to recalculate the past histories and any other transaction in the whole [[Network]].
 
 In actuality, we might... read about [[Sybil Attack]]
 

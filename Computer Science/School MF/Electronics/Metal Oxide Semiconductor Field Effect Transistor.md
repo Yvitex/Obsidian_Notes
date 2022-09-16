@@ -44,3 +44,5 @@ Related: [[2 Types of Element in a Electronic Circuit|Active Element]]
 
 ## Schematics Types
 ![[Pasted image 20220612104706.png]]
+
+![[Pasted image 20220908112512.png]]

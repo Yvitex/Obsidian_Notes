@@ -128,3 +128,11 @@ const gui = new dat.GUI({closed: true, width: 400})
 
 Closed true means the controler is closed by default
 ![[Pasted image 20220706191658.png]]
+
+
+To set this up inside and change a function, what we could do is to call `onFinishChange`
+```js
+gui.add(parameters, "count").min(100).max(1000).step(10).onFinishChange(generateGalaxy)
+gui.add(parameters, "size").min(0.01).max(0.2).step(0.01).onFinishChange(generateGalaxy)
+```
+

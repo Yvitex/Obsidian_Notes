@@ -2,7 +2,7 @@
 Is a part of [[Machine Learning]] and [[Artificial Intelligence]] to imitate how humans learn certain things. 
 This is important in [[Data Science]] in discoverting [[intricate]] structures of data. 
 
-Deep learning is an art of finding patterns throughout a [[Structured Data]] or even [[Binary Data]]. 
+Deep learning is an art of finding patterns throughout a [[Structured Data]] or even [[Binary]]. 
 
 ![[Pasted image 20220805170828.png]]
 

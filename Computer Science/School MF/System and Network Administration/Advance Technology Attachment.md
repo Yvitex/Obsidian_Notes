@@ -1,5 +1,5 @@
 ---
-aliases: [ATA]
+aliases: [ATA, IDE Drives]
 ---
 # ATA
 There are  kinds of ATA:

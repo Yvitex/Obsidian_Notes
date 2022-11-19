@@ -1,5 +1,5 @@
 # Component Mount
-Is called once when the page became live to the viewport. That is what mounting means, we called it once for ever start of the program
+Is called once when the page became live to the viewport. That is what mounting means, we called it once for ever start of the program, similar to [[useEffect]]
 
 ```jsx
 componentDidMount(){

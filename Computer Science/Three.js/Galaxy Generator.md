@@ -6,7 +6,7 @@ parameters.count = 100 // count of particle
 parameters.size = 0.01 // size of particle
 ```
 
-Create a function that will generate [[Three,js Particles]]
+Create a function that will generate [[Three.js Particles]]
 ```js
 const generateGalaxy = () => {
     console.time("generator")

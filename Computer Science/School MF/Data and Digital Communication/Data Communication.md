@@ -26,3 +26,5 @@ Timeliness - the data is delivered as they are produced. Delayed in the delivery
 
 Jitter - correct hittering value is required, it must be lower than 30ms
 
+
+Related: [[Data Layer]]

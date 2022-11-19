@@ -39,11 +39,11 @@ This happens because we only have 5 by 5 data. Increase the number of values int
 
 ![[Pasted image 20220605144957.png]]
 
-Now, to actually plot the gradient descent, we need to calculate the slope in each parameter. In order to do that, we need to get the partial derivative of the Mean Squared Error. If [[Y Hat]] is equivalent to the linear gradient formula, then the formula to be used is:
+Now, to actually plot the gradient descent, we need to calculate the slope in each parameter. In order to do that, we need to get the partial [[Numerical Differentiation and Integration|derivative]] of the Mean Squared Error. If [[Y Hat]] is equivalent to the linear gradient formula, then the formula to be used is:
 ![[Pasted image 20220605145012.png]]
 
-First formula is the partial derivative of mse with respect to theta 0  
-Second formula is the partial derivative of mse with respect to theta 1  
+First formula is the partial [[Numerical Differentiation and Integration|derivative]] of mse with respect to theta 0  
+Second formula is the partial [[Numerical Differentiation and Integration|derivative]] of mse with respect to theta 1  
   
 Create a function that will calculate both of this values and return it as a numpy array. In the parameters, the third param will accept an array where var\[0] is theta 0 and var\[1] is theta 1
 

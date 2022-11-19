@@ -1,3 +1,6 @@
+---
+aliases: [reading array]
+---
 # Array Lookup
 A very simple method used to look data from an index. We simply need to know the index
 ```js

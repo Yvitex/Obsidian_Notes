@@ -8,20 +8,20 @@
 
 ![[Pasted image 20220605141010.png]]
 
-## Partial Derivatives:
+## Partial [[Numerical Differentiation and Integration|Derivatives]]:
 ![[Pasted image 20220605141016.png]]
 
 
 
 
-For a number of iterations, we specify the gradients of each parameters by differentialting the function c(a, b) in respect to their constant. For gradient x, we get the [[Derivatives|derivative]] of the function in respect to x or a, for gradient y, we get their respective derivatives
-in respect to y. This is called [[Partial Derivatives]]
+For a number of iterations, we specify the gradients of each parameters by differentialting the function c(a, b) in respect to their constant. For gradient x, we get the [[Derivatives|derivative]] of the function in respect to x or a, for gradient y, we get their respective [[Numerical Differentiation and Integration|derivatives]]
+in respect to y. This is called [[Partial Differential Equation]]
 
 ![[Pasted image 20220605141023.png]]
  
 
 
-After setting their derivative, we evaluate them both to the initial guess array using (evalf) method. In this case, initial_guess\[0] and initial_guess\[1].
+After setting their [[Numerical Differentiation and Integration|derivative]], we evaluate them both to the initial guess array using (evalf) method. In this case, initial_guess\[0] and initial_guess\[1].
 
  ![[Pasted image 20220605141031.png]]
 

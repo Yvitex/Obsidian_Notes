@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b3a45ce24a3249fd",
+        "id": "722f1468111d7b2f",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "RAM Installation, Removal and Maintenance.md",
+            "file": "System of Linear Equations.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,21 +41,28 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#hardware",
+                "query": "server computer",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               }
             }
+          },
+          {
+            "id": "d695ac9d33913d5e",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 266.5
+    "width": 251.5
   },
   "right": {
     "id": "a565141a525f8680",
@@ -71,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "RAM Installation, Removal and Maintenance.md",
+                "file": "System of Linear Equations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +101,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "RAM Installation, Removal and Maintenance.md",
+                "file": "System of Linear Equations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -117,7 +124,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.5087618855792904,
+                  "scale": 0.7132754626224885,
                   "close": true
                 }
               }
@@ -127,19 +134,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.5
+    "width": 299.5
   },
-  "active": "b3a45ce24a3249fd",
+  "active": "722f1468111d7b2f",
   "lastOpenFiles": [
-    "Algorithm and Data Structures/Random Access Memory.md",
-    "SD RAM.md",
-    "DDR RAM.md",
-    "RAM Installation, Removal and Maintenance.md",
-    "Dual Inline Memory Module.md",
-    "Combining HTML and Three.js.md",
-    "Three.js/Three.js RayCaster.md",
-    "Three.js/Raycaster and MouseEvents.md",
-    "Machine Learning/Loading the Model in Tensor.md",
-    "Machine Learning/Data Science Communication.md"
+    "Gaussian Elimination.md",
+    "Augmented Matrix.md",
+    "Row Echelon.md",
+    "System of Linear Equations.md",
+    "School MF/Data and Digital Communication/RDRAM.md",
+    "School MF/Data and Digital Communication/KVM Switch.md",
+    "Algorithm and Data Structures/Coding Interview Guide.md",
+    "Japanese/RU - Verb (る).md",
+    "Japanese/U-Verb (う).md",
+    "Algorithm and Data Structures/Dynamic Programming.md"
   ]
 }

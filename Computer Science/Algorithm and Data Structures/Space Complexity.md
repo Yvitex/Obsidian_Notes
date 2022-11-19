@@ -1,5 +1,5 @@
 # Space Complexity
-There are 2 ways a program could store data... the [[Heap]] and the [[Stack]]
+There are 2 ways a program could store data... the [[Memory Heap]] and the [[Stacks]]
 Sometimes. when space complexity increase, the [[Big O Asymptotic Analysis|time complexity]] decrease. 
 
 What causes some Space Complexity are:

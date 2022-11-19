@@ -8,7 +8,7 @@ It is just a [[Three.js Mesh|mesh]] or an item inside a scene.
 ## List
 - [[Primitive Geometries]]
 - [[Imported Models]]
-- [[Three,js Particles]]
+- [[Three.js Particles]]
 - [[Light]]
 - Etc
 

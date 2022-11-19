@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "14c5ab1f5531809c",
+    "type": "split",
+    "children": [
+      {
+        "id": "de91312c4c4d6bfe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3dc1cc5bf062a076",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React Router.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "625d1e16d696cfc6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Firebase Database.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "392ba1fe92fc874f",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebccd64c20db0bcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "675fe5214fd47c05",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "223dda8ad73c69ab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "d695ac9d33913d5e",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 250.5
+  },
+  "right": {
+    "id": "a565141a525f8680",
+    "type": "split",
+    "children": [
+      {
+        "id": "241a78e3c3721e51",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7f7f940b10adf854",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Firebase Database.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "9a3ba6e4a5aae542",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "4f1c234134801713",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "45097d8fe0c90495",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb6b03c69dfd005c",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Firebase Database.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.25883865621818136,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 296.5
+  },
+  "active": "625d1e16d696cfc6",
+  "lastOpenFiles": [
+    "WebApp/Backend/NoSQl.md",
+    "Machine Learning/SQL.md",
+    "Firebase Database.md",
+    "React Router.md",
+    "Firebase.md",
+    "React Import SVG and Assets.md",
+    "Machine Learning/SVG.md",
+    "React's Package JSON.md",
+    "WebApp/React/React.md",
+    "WebApp/React/Declarative Programming vs Imperative Programming.md"
+  ]
+}

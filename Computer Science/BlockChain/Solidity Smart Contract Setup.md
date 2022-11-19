@@ -1,5 +1,5 @@
 # Solidity Code
-In this lesson, we will use a website that is supported by [[Solidity]] called [Remix](https://remix-project.org/)
+In this lesson, we will use a website that is supported by [[Solidity Language]] called [Remix](https://remix-project.org/)
 
 Create a new file called My_Contract
 ![[Pasted image 20220629162940.png]]
@@ -28,6 +28,8 @@ contract MyContract{
 ```
 
 
+Choose this setting on the etherium icon
+![[Pasted image 20221101084249.png]]
 
 
 

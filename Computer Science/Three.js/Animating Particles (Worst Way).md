@@ -1,5 +1,5 @@
 # Animating Particles
-[[Three,js Particles]] are hard to do [[Three.js Animations]], the best way to do this is to create our own shader.
+[[Three.js Particles]] are hard to do [[Three.js Animations]], the best way to do this is to create our own shader.
 
 Inside the tick funciton
 ```js

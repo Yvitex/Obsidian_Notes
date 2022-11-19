@@ -1,5 +1,5 @@
 ---
-aliases: [time complexity]
+aliases: [Time Complexity]
 ---
 # Big O 
 Is a way to measure the [[Runtime]] or performance of a program by counting its operation. Each operation takes time  and using this analysis method, we could measure how good our code is. if it is a [[Good Code]] or a Bad Code.
@@ -9,6 +9,9 @@ Is a way to measure the [[Runtime]] or performance of a program by counting its 
 - [[Constant Time]]
 - [[Quadratic Time]]
 - [[Factorial Time]]
+- [[Logarithmic Time Complexity]]
+- [[Exponential Time Complexity]]
+- [[Loglinear Time Complexity]]
 
 In analysis, we need to ming the[[Big O Reading Rules]]
 
@@ -52,7 +55,7 @@ function anotherFunChallenge(input) {
 
 It is O(4 + 7n) but to simplify, we could just use O(n)
 
-[[Big O Case Ranges]]
+[[Big O Asymptotic Analysis]]
 
 Why do we need to know about this??
 Simply it makes us aware that we have hoe infinite resources. For example, instead of running a loop to find the last and the first part of an array, we would just imply choose a call property like array\[0]
@@ -66,3 +69,8 @@ The above function also, we could be aware of the language. We could look up and
 
 
 ![[5.1 BigO-cheat-sheet (1).pdf.pdf]]
+
+ ## Big O Case Ranges
+ 
+![[Pasted image 20220731051420.png]]
+

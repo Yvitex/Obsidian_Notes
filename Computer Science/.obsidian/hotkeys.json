@@ -82,5 +82,22 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "recent-files-obsidian:recent-files-open": [],
+  "table-editor-obsidian:center-align-column": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ],
+  "table-editor-obsidian:left-align-column": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Y"
+    }
   ]
 }

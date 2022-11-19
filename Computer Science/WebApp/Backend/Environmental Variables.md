@@ -12,7 +12,7 @@ npm i dotenv
 
 In the first most part of our node.js source code. 
 ```
-require("dotenv").plugin()
+require("dotenv").config()
 ```
 
 Now we create a new hidden file called **.env** that will store the environmental variables. The syntax should show a capitalized variable with no spaces between equal and no quotation mark. I mean, there is no char extension to the syntax. If there are multiple env variables, then we separate it into the new line without any extra characters.

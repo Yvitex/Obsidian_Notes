@@ -12,5 +12,6 @@
   ],
   "baseFontSize": 15,
   "translucency": false,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "accentColor": ""
 }

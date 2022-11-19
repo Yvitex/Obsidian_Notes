@@ -1,8 +1,10 @@
 ---
-aliases: [functional component]
+aliases: []
 ---
 
 # React Component
+There are 2 types of component and they are [[React Class Component]] and [[React Functional Component]]
+
 ```js
 import React from "react";
 import ReactDOM from "react-dom"; 

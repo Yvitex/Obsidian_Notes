@@ -6,7 +6,7 @@ Mathematically:
 
 ![[Pasted image 20220602120624.png]]
 
-where dw is the [[Derivatives]] of [[Work]] and over [[Basic Unit of Electric Circuit is Electric Charge|charge]]
+where dw is the [[Numerical Differentiation and Integration|derivatives]] of [[Work]] and over [[Basic Unit of Electric Circuit is Electric Charge|charge]]
 
 The resulting unit will be Joules/Coulombs == Volts
 

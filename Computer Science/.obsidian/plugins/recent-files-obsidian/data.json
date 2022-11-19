@@ -1,0 +1,206 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Firebase Database",
+      "path": "Firebase Database.md"
+    },
+    {
+      "basename": "NoSQl",
+      "path": "WebApp/Backend/NoSQl.md"
+    },
+    {
+      "basename": "SQL",
+      "path": "Machine Learning/SQL.md"
+    },
+    {
+      "basename": "React Router",
+      "path": "React Router.md"
+    },
+    {
+      "basename": "Firebase",
+      "path": "Firebase.md"
+    },
+    {
+      "basename": "Pagination Button",
+      "path": "Pagination Button.md"
+    },
+    {
+      "basename": "React Import SVG and Assets",
+      "path": "React Import SVG and Assets.md"
+    },
+    {
+      "basename": "SVG",
+      "path": "Machine Learning/SVG.md"
+    },
+    {
+      "basename": "React's Package JSON",
+      "path": "React's Package JSON.md"
+    },
+    {
+      "basename": "React",
+      "path": "WebApp/React/React.md"
+    },
+    {
+      "basename": "Declarative Programming vs Imperative Programming",
+      "path": "WebApp/React/Declarative Programming vs Imperative Programming.md"
+    },
+    {
+      "basename": "Mapping in Class Component",
+      "path": "WebApp/React/Mapping in Class Component.md"
+    },
+    {
+      "basename": "Programming Conventions",
+      "path": "WebApp/React/Programming Conventions.md"
+    },
+    {
+      "basename": "Webpack",
+      "path": "Webpack.md"
+    },
+    {
+      "basename": "React Styling",
+      "path": "WebApp/React/React Styling.md"
+    },
+    {
+      "basename": "SASS",
+      "path": "SASS.md"
+    },
+    {
+      "basename": "Function SideEffect",
+      "path": "Function SideEffect.md"
+    },
+    {
+      "basename": "React Library Design",
+      "path": "WebApp/React/React Library Design.md"
+    },
+    {
+      "basename": "Rerender Class Component",
+      "path": "WebApp/React/Rerender Class Component.md"
+    },
+    {
+      "basename": "useEffect",
+      "path": "WebApp/React Native/useEffect.md"
+    },
+    {
+      "basename": "React Functional Component",
+      "path": "React Functional Component.md"
+    },
+    {
+      "basename": "Hooks",
+      "path": "WebApp/React/Hooks.md"
+    },
+    {
+      "basename": "Pure Functions",
+      "path": "Pure Functions.md"
+    },
+    {
+      "basename": "Impure Function",
+      "path": "Impure Function.md"
+    },
+    {
+      "basename": "React Component",
+      "path": "WebApp/React/React Component.md"
+    },
+    {
+      "basename": "Single Page Application",
+      "path": "WebApp/React/Single Page Application.md"
+    },
+    {
+      "basename": "React File Architecture and Conventions",
+      "path": "WebApp/React/React File Architecture and Conventions.md"
+    },
+    {
+      "basename": "ERC-20 Token Creation",
+      "path": "BlockChain/ERC-20 Token Creation.md"
+    },
+    {
+      "basename": "Filter Search",
+      "path": "WebApp/React/Filter Search.md"
+    },
+    {
+      "basename": "componentDidMount",
+      "path": "WebApp/React/componentDidMount.md"
+    },
+    {
+      "basename": "Lifecycle Methods",
+      "path": "WebApp/React/Lifecycle Methods.md"
+    },
+    {
+      "basename": "Class Component Local State",
+      "path": "WebApp/React/Class Component Local State.md"
+    },
+    {
+      "basename": "Reference Type",
+      "path": "Android/Reference Type.md"
+    },
+    {
+      "basename": "NPX",
+      "path": "WebApp/React/NPX.md"
+    },
+    {
+      "basename": "Atomic React",
+      "path": "WebApp/React/Atomic React.md"
+    },
+    {
+      "basename": "How to be a good react developer",
+      "path": "WebApp/React/How to be a good react developer.md"
+    },
+    {
+      "basename": "NPM",
+      "path": "WebApp/React/NPM.md"
+    },
+    {
+      "basename": "Non-SPA",
+      "path": "WebApp/React/Non-SPA.md"
+    },
+    {
+      "basename": "DOM",
+      "path": "WebApp/React/DOM.md"
+    },
+    {
+      "basename": "Shallow merge",
+      "path": "WebApp/React/Shallow merge.md"
+    },
+    {
+      "basename": "Synchronous programming",
+      "path": "WebApp/React/Synchronous programming.md"
+    },
+    {
+      "basename": "Asynchronous programming",
+      "path": "WebApp/React/Asynchronous programming.md"
+    },
+    {
+      "basename": "Input Element",
+      "path": "WebApp/React/Input Element.md"
+    },
+    {
+      "basename": "Control Parent with React Component",
+      "path": "WebApp/React/Control Parent with React Component.md"
+    },
+    {
+      "basename": "JS and HTML Events",
+      "path": "WebApp/React/JS and HTML Events.md"
+    },
+    {
+      "basename": "Base64 Solidity",
+      "path": "BlockChain/Base64 Solidity.md"
+    },
+    {
+      "basename": "Making NFT Game",
+      "path": "BlockChain/Making NFT Game.md"
+    },
+    {
+      "basename": "Smart Contract on Front End",
+      "path": "BlockChain/Smart Contract on Front End.md"
+    },
+    {
+      "basename": "Solidity Struct",
+      "path": "BlockChain/Solidity Struct.md"
+    },
+    {
+      "basename": "Cooldown in Solidity",
+      "path": "BlockChain/Cooldown in Solidity.md"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null
+}

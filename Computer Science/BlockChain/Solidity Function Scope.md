@@ -1,5 +1,5 @@
 # Function Scope
-There are 4 main types of function scope in [[Solidity]]
+There are 4 main types of function scope in [[Solidity Language]]
 - public
 - private
 - internal

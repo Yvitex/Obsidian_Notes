@@ -1,7 +1,10 @@
+---
+aliases: [depthWrite()]
+---
 # Particle Texturing
 ![[Pasted image 20220819142823.png]]
 
-We could apply a texture to the [[Three,js Particles]] but as we could see, it will create an image instead that looks like a square. 
+We could apply a texture to the [[Three.js Particles]] but as we could see, it will create an image instead that looks like a square. 
 ```js
 const textureLoader = new THREE.TextureLoader()
 const ring = textureLoader.load("/textures/particles/2.png")

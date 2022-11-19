@@ -8,7 +8,7 @@ Rate of expending or absorving [[Work|energy]] measured in watts
 
 ![[Pasted image 20220602122029.png]]
 
-Power is calculated by the [[Derivatives]] of energy or work over time.
+Power is calculated by the [[Numerical Differentiation and Integration|Derivative]] of energy or work over time.
 
 Combining the formula for[[ Voltage ]]and  [[Electric Current|current]] we will also get power as the result such as:
 

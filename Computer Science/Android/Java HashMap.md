@@ -1,5 +1,6 @@
 # HashMap
 Similar to [[Javascript]] objects and [[Python]]'s dictionary
+
 ## Documentation
 Here is the documentation of [Hashmap](https://docs.oracle.com/en/java/javase/18/docs/api/java.base/java/util/HashMap.html)
 
@@ -47,4 +48,6 @@ collapse: open
 We cannot use a loop to modify the values of the hashmap. It will give of an error
 
 ```
+
 ![[Pasted image 20220711091046.png]]
+

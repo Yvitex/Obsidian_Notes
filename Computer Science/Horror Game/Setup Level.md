@@ -2,7 +2,7 @@
 aliases: [exposure, inifinite extent, post processing volume]
 ---
 # Setting Up Space
-Setup the basic space by creating a new game, applying all addons except ray tracing. 
+Setup the basic space by creating a new game, applying all addons except [[Ray Tracing]]. 
 
 ![[Pasted image 20220714044706.png]]
 

@@ -94,3 +94,41 @@ When user is already logged inside the web. He or she don't need to login again 
 ```
 
 
+To get more additional data, we use this other property
+```js
+passport.use(new FacebookStrategy({
+    clientID: process.env.FB_ID,
+    clientSecret: process.env.FB_SECRET,
+    callbackURL: "http://localhost:3000/auth/facebook/secret",
+    profileFields: ['id', 'displayName', 'name', 'photos', 'emails']
+  },
+));
+```
+
+In this way, we could get the photos and email from the facebook profile. Also, we need to do this to the main,
+```js
+app.get('/auth/facebook', passport.authenticate('facebook', {scope: ['email']}));
+```
+
+To get the profile picture though is a different process, we need to use the Graph API of facebook. The syntax is this
+```js
+passport.use(new FacebookStrategy({
+    clientID: process.env.FB_ID,
+    clientSecret: process.env.FB_SECRET,
+    callbackURL: "http://localhost:3000/auth/facebook/secret"
+  },
+
+  function(accessToken, refreshToken, profile, cb) {
+    User.findOrCreate(
+	    { 
+		    facebookId: profile.id, 
+		    profilePic:  "https://graph.facebook.com/" + profile.id + "/picture?width=200&height=200&access_token=" + process.env.FB_ACCESS_TOKEN
+		}, function (err, user) {
+        console.log(user)
+      return cb(err, user);
+    });
+  }
+));
+```
+
+The website to get the access token is [here](https://developers.facebook.com/tools/explorer/)

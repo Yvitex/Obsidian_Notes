@@ -11,3 +11,10 @@ We need to rename it properly Make it very descriptive
 
 Now the string is not dependent on the moneyValue name coming fron the string.xml. Here are the resources from strings.xml now that we extracted all strings
 ![[Pasted image 20220711142506.png]]
+
+Another way to refactor this is by clicking the button in the right of the text field in attribute
+![[Pasted image 20221021053346.png]]
+
+We could add resource to it by clicking the plus symbol then click <u>string value</u>. We could simply choose the created resources to be applied. 
+![[Pasted image 20221021053425.png]]
+

@@ -78,7 +78,7 @@ export default class Camera{
 ```
 
 Third solution is the most complicated
-We coudl just pass it as an instance but first we need to only pass it as a [[Singleton]] meaning no matter how many times we instantiated, we will not create a new object but the same thing from the first instance
+We coudl just pass it as an instance but first we need to only pass it as a [[Singleton Pattern]] meaning no matter how many times we instantiated, we will not create a new object but the same thing from the first instance
 The conde in the [[Experience Class]] is like this
 ```js
 import Camera from "./Utils/Camera"

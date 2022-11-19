@@ -6,4 +6,4 @@ The easiest way to crate a [[Smart Contract]]. In simple terms, one [[Smart Cont
 
 A decentralized application have a [[BackEnd Development|backend]], front end  and a [[BlockChain]] integrated with it. [[BackEnd Development|backend]]s are optional as ethereum it self is the new [[BackEnd Development|backend]]
 
-[[Smart Contract]] is run by [[Solidity]] and combinind those sugar and spice, we appropriate an [[Ethereum]] [[Network]].
+[[Smart Contract]] is run by [[Solidity Language]] and combinind those sugar and spice, we appropriate an [[Ethereum]] [[Network]].

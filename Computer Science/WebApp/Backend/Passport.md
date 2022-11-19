@@ -5,7 +5,7 @@ Sadly, *passports* are very confusing indeed. Passports are used to authenticate
 ## Initial Setup
 Here, we need 3 modules
 ```
-npm install passport passport-local passport-local-mongoose express-session
+npm install passport passport-local passport-local-mongoose express-session passport-local
 ```
 
 <hr>
@@ -20,8 +20,9 @@ After this installations. We now should verufy its existence inside **package.js
 
 ```js
 const passport = require("passport");
-const passportLocalMongoose = require("passport-local-mongoose")
-const session = require("session")
+const passportLocalMongoose = require("passport-local-mongoose");
+const session = require("session"); 
+const LocalStrategy = require("passport-local").Strategy;
 ```
 
 We do not need to import `passport-local` as it is already inside the `passport-local-mongoose`
@@ -67,10 +68,10 @@ UserSchema.plugin(passportLocalMongoose);
 
 After we create a model for our schema, then we will now enable the creation and destruction of cookies into the web app.
 
-```
+```js
 const User = mongoose.model("User", UserSchema);
 
-passport.use(User.createStrategy());
+passport.use(new LocalStrategy(User.authenticate()));
 
 passport.serializeUser(function(user, cb) {
     process.nextTick(function() {
@@ -85,10 +86,18 @@ passport.serializeUser(function(user, cb) {
   });
 ```
 
+Or, the easiest shortcut way is
+```js
+passport.use(new LocalStrategy(User.authenticate()));
+passport.serializeUser(model.serializeUser());
+passport.deserializeUser(model.deserializeUser());
+```
+
+
 ## Registration
 Inside the [[Restful Api Architecture Post|post]] method. The way to use this is by using `passport-local-mongoose` method called `.register()` along with the mongoose model. This will accept an object, in which `username` is mandatory, next is the password and lastly a callback function. If the registration undergo without any error, therefore we will authenticate the `passport` in type `"local"` from` passport-local `module then redirect them to the `/secret` route. 
 
-```
+```js
 app.post("/register", function(req, res){
 	User.register({username: req.body.username}, req.body.password, function(err, result){
 		if(err){
@@ -97,7 +106,7 @@ app.post("/register", function(req, res){
 		}
 		else{
 			passport.authenticate("local")(req, res, function(){
-				res.redirect("\secret");	
+				res.redirect("/secret");	
 			})
 		}
 	});	
@@ -121,26 +130,14 @@ With this, whenever we login, the website will remember us. After registration, 
 
 ## Login
 ```
-app.post('/login', function(req, res{
-	conse newUser = new User({
-		email: req.body.username,
-		password: req.body.password,
-	});
-
-	User.login(newUser, function(err){
-		if(err){
-			console.log(err);
-			res.redirect('/login')
-		}
-		else{
-			passport.authenticate("local")(req, res, function(){
-				res.redirect("/secrets")
-			});
-		}
-	})
-}))	
+app.post("/login", passport.authenticate("local",{
+    successRedirect: "/",
+    failureRedirect: "/landing"
+}), function(req, res){
+});
 ```
-Here, we do not use any mongoose find method. `.login()` will handle everything automatically. We only need to create a new instance of the model but without saving it, passing it as the first parameter of the login method then a callback. 
+
+The old way does not work so here is the update one. 
 
 ## Logout
 ```

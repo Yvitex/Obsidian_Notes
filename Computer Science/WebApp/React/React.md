@@ -82,6 +82,34 @@ document.getElementById("root"));
 ```
 
 
-Whoo, Oneshot best game I wanna play. I don't wanna study anymore.
+## React V18
 
-![[Pasted image 20220624164450.png]]
+Since the new update, there are some changes in the primary boiler plate and it now look like this.
+```js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
+
+We import now in the `react-dow/client`
+```js
+import ReactDOM from 'react-dom/client';
+```
+
+Then we create a root using `ReactDom` in the root [[HTML]] then use that to render the App
+```js
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
+
+Strict mode will double re render everything so ye

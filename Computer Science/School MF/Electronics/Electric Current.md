@@ -9,7 +9,7 @@ aliases: [Current]
 In equation, the electric current is:
 
 ![[Pasted image 20220602114007.png]]
-d stands for [[Derivatives]]
+d stands for [[Numerical Differentiation and Integration|Derivative]]
 
 This represent that current is [[Basic Unit of Electric Circuit is Electric Charge|coulombs]] over time.
 ![[Pasted image 20220602114240.png]]

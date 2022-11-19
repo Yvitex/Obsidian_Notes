@@ -4,7 +4,7 @@ aliases: [normal function, view function]
 
 # Solidity Main Functions
 After creating the [[Solidity Smart Contract Setup]], next is we must know the types of functions available
-There are 2 main types of functions called *normal* functions and *view* functions in [[Solidity]]
+There are 2 main types of functions called *normal* functions and *view* functions in [[Solidity Language]]
 
 ## View Function
 View functions are used to view data and cannot change the state of something.
@@ -54,3 +54,5 @@ function sendSomething() public payable{
 ```
 
 We could notice that for every function, we use some [[Solidity Function Scope]] declaration
+
+[[MSG Variables Solidity]]

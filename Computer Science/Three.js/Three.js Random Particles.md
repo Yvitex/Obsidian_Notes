@@ -28,7 +28,7 @@ particleGeometry.setAttributes(
 )
 ```
 
-Now, we could set it to a [[Three,js Particles]] materials and mesh
+Now, we could set it to a [[Three.js Particles]] materials and mesh
 ```js
 const particleMaterial = new THREE.PointsMaterial({
     size: 0.1,

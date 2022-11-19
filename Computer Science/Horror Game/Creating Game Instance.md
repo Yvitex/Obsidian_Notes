@@ -2,7 +2,7 @@
 aliases: [game instance]
 ---
 # Game Instance
-After [[Setup Level|setting up]], we could now create a game instance that will override the default ones. Game instance are like global variables useful in making health bars or mp barns that don't reset when the game progress or move to a different level, It is created when the game starts and deleted when the game is closed, somehow reminds me of [[Reference Type]] variables stored in [[Heap]]
+After [[Setup Level|setting up]], we could now create a game instance that will override the default ones. Game instance are like global variables useful in making health bars or mp barns that don't reset when the game progress or move to a different level, It is created when the game starts and deleted when the game is closed, somehow reminds me of [[Reference Type]] variables stored in [[Memory Heap]]
 
 ## Setup
 Create a new folder called BluePrint, or name it whatever just notice that this is where we will store blueprints. 

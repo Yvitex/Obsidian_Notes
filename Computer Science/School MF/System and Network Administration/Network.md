@@ -15,3 +15,12 @@ Network is all about sharing, and they primarily shares 3 main things:
 There are different kinds of server-client interaction in a network and they are:
 - [[Client (slash)Server Network]]
 - [[Peer to Peer Network]]
+
+[[Network Protocol]]s and [[Network Standard]] are what makes the network works. 
+
+Network are built from different components such as:
+- Networking Technologies - [[Ethernet]], wifi, bluetooth
+- Network Style - wired, [[Wireless Network]], sattelite
+- Application  - email, web / [[HTTP and HTTPS|HTTP]]
+
+Problems that we might face is overtime, like when application endpoint is not on the same media. 

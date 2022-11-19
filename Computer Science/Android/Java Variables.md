@@ -22,7 +22,7 @@ But there are also many merits in this type of feature which promotes better con
 Data types defines the type of operation we could use in a variable.
 
 - Boolean (boolean) - 8 bits - either 0 or 1 ([[Switching Operation]])
-- Byte (byte) - 8 bits - `[-128< byte > 127]` which is weird because [[IP Adress|8bits == 255]]
+- Byte (byte) - 8 bits - `[-128< byte > 127]` which is weird because [[IP Address|8bits == 255]]
 - Short (short) - 16 bits - `[-290 < byte > 289]` another weird one, 2 * 127 == 254
 - Integer (int) - 32 bits
 - Long (long) - 64 bits
@@ -32,6 +32,7 @@ Data types defines the type of operation we could use in a variable.
 - String (String) - depends on the amount of char
 
 ### In Table
+
 | Data Type | Memory | Range         |
 | --------- | ------ | ------------- |
 | Boolean   | 1 byte | 0 and 1       |

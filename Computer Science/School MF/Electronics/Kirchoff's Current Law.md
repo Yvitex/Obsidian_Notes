@@ -3,7 +3,7 @@ aliases: [kcl]
 ---
 
 # What is Kirchoff's Current Law
-This states that the algebraic some of the current, leaving and entering the node is 0
+This states that the algebraic sum of the current, leaving and entering the node is 0
 
 ## Mathematical Formula
 $$\sum_{n=1}^Ni_n = 0$$

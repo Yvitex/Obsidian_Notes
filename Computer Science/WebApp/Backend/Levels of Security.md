@@ -4,19 +4,7 @@ Level 2:  [[Encryption]] of user information
 Level 3:  Protecting and hiding sensitive variables using [[Environmental Variables]] (please do this before commiting to any version control system like [[Github]])
 Level 4: Actually, we could use a [[Hashing Function]] instead rather than normal encryption to avoid hiding keys in an [[Environmental Variables]]. 
 Level 5: We could use such modules called [[Passport]]s that could authenticate the user effectively, also have a builtin[[Hashing Function]] and [[Salting]] algorithm. 
-Level 6: We could use [[OAuth]], to use third party websites such as fb, twitter, etc to authenticate the user plus backend data like their friend list etc. 
-
-
-
-
-
-
-
-
-
-
-
-
+Level 6: We could use [[Google OAuth]], to use third party websites such as fb, twitter, etc to authenticate the user plus backend data like their friend list etc. 
 
 Remember: Mary Queen of Scots took 3 blows in the neck before complete decapitation because her encryption style was super duper weak. 
 

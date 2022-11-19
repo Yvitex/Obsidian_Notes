@@ -3,7 +3,7 @@ We could structure the component file like
 *Components > feature-component > feature.component.jsx*
 ![[Pasted image 20220724141047.png]]
 
-This styling is preferable i suppose. We add the [[React CSS]] like this
+This styling is preferable i suppose. We add the [[React Styling]] like this
 ![[Pasted image 20220724165652.png]]
 
 

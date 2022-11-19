@@ -8,7 +8,7 @@ https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.0/ScrollTrigger.min.js
 
 Then [[Register Effect]] called scorllTrigger
 ```js
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger)
 ```
 
 If we have this [[GSAP Programming|tweening]] 

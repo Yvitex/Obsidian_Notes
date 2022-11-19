@@ -29,6 +29,8 @@ class App extends Component(){
 }
 ```
 
+This type of writing components need to inherit to the component class in order to use the render() method.
+
 This is some basic boiler plate using [[React Class Component]]. It looks like this
 ![[Pasted image 20220723103505.png]]
 
@@ -65,7 +67,7 @@ class App extends Component(){
 }
 ```
 
-With this, we could set an object that will hold into the state, we use the name `state` as the variable in which [[React]] will look for. And also use [[Java OOP Methods|this keyword]] as we are inside a class component
+With this, we could set an object that will hold into the state, we use the name `state` as the variable in which [[React]] will look for. And also use [[Java OOP Methods|this keyword]] as we are inside a class component. Everytime the state changes, the react re renders. 
 ```js
 import { Component } from "react";
 
@@ -103,7 +105,7 @@ class App extends Component(){
 
 When we command the button to change the state through a function like this.
 ```jsx
-r But<button onClick = {() => this.state.name = "Goshujin-sama"}>Slap Et</button>	
+<button onClick = {() => this.state.name = "Goshujin-sama"}>Slap Et</button>	
 ```
 
 ```ad-Danger
@@ -113,7 +115,7 @@ If we try and click this, it still the same. But when we console log it, we coul
 WHYYYYY
 ```
 
-This will not work, why? [[React]] only rerenders when it detects a change in the entire object, meaning even though we change the value of that object, it is still the same object, it is still the same [[Memory address]]. Look further into this topic at [[Javascript Objects Equality]]
+This will not work, why? [[React]] only rerenders when it detects a change in the entire object, meaning even though we change the value of that object, it is still the same object, it is still the same [[Memory address]]. Look further into this topic at [[Reference Type]]
 
 What we could do is to use the [[React]] method called `setState` to make the [[DOM]] [[Rerender Class Component]]
 ```jsx
@@ -163,12 +165,6 @@ class App extends Component(){
 ![[5gqaat.gif]]
 
 
-```ad-note
-collapse: open
-The author does not mean to sexualize any women. Just imagine it as a guy dressed in a maid uniform. And no, I'm not gay
-
-```
-
 One thing to notice about this code is that when we console log it on click
 ```jsx
 <button onClick = {() => 
@@ -181,7 +177,12 @@ One thing to notice about this code is that when we console log it on click
 
 We could see that it doesn't really update on the first click though we could see that the changes are rendered inside the viewport. WHY? This could be explained by the concept of [[Synchronous programming]] and [[Asynchronous programming]]
 
-`this.setState` runs asynchronous to other processes and `console.log` runs synchronous. The simplest explanation is that despite we declare that `console.log()` should run after we set the states, [[React]] first executes it before executing `setState`.  To prevent this, the most optimate way to write a `setState` function is to create a callback function
+`this.setState` runs asynchronous to other processes and `console.log` runs synchronous. The simplest explanation is that despite we declare that `console.log()` should run after we set the states, [[React]] first executes it before executing `setState`.  To prevent this, the most optimate way to write a `setState` function is to create a callback function in this form
+
+```jsx
+this.setState(() => {}, () => {};
+```
+
 ```jsx
 <button
 	onClick={() => {

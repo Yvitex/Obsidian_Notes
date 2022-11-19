@@ -2,6 +2,8 @@
 aliases: [javascript arrays]
 ---
 # Arrays
+Arrays are a collection of items of similar type. 
+
 Arrays have 4 main methods which function as insertion(), deletion(), lookup(), and push()/pop()
 Here we will use [[Javascript]] as an example
 - [[Array Push() + Pop()]] 
@@ -22,7 +24,7 @@ There are 2 kinds of array:
 | Insertion | [[Linear  Time Complexity\|O(n)]] |                                          |
 | Search    |      [[Linear  Time Complexity\|O(n)]]                             |                                          |
 
-To understand this more, we could practice in [[Creating Array DS from Scratch]]
+To understand this more, we could practice in creating [[Manual Javascript Array]]
 
 ## Pros:
 When to use

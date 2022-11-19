@@ -1,5 +1,7 @@
 #python
 # API 
+API is a set of protocol that enable 2 software devices to communicate with each other 
+
 There are many ways we could utilize an API, We just first need to identify their *endpoints*, read the parameters and voila. 
 Here is an example of api providers call [Open Weather Map](https://openweathermap.org/api/one-call-api). To utilize their API, we need to authenticate first ourselves and then find their endpoints. 
 

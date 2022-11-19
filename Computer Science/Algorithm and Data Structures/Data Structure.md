@@ -15,5 +15,9 @@ And also Data Structures Must have These Operations
 ## Data Structures
 - [[Array Data Structure]]
 - [[Hash Table]]
-- [[Linked List]]
-- 
+- [[Singly Linked List]]
+- [[Doubly Linked List]]
+- [[Queue]]
+- [[Stacks]]
+- [[Tree Data Structure]]
+- [[Graph Data Structure]]

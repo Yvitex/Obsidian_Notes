@@ -5,9 +5,9 @@ aliases: [website]
 ![[Pasted image 20220903164700.png]]
 
 The first thing that occurs when we search for a website is that we request for the Address of that Domain Name  in the [[Domain Name Server]] through the [[Internet Service Provider]]
- The [[Domain Name Server|DNS]] will return an [[IP Adress]] that will be send to the browser. 
+ The [[Domain Name Server|DNS]] will return an [[IP Address]] that will be send to the browser. 
 
-As soon as we get the [[IP Adress]], we will send the [[IP Adress]] to google server and returns a copy of [[HTML]] [[CSS]] and [[Javascript]]
+As soon as we get the [[IP Address]], we will send the [[IP Address]] to google server and returns a copy of [[HTML]] [[CSS]] and [[Javascript]]
 ![[Pasted image 20220903170330.png]]
 
 ![[Pasted image 20220903171434.png]]

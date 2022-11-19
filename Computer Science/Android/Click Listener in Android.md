@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## First way
-The first way is the long method where we need to pass the View Object as a parameter and overriding the onClick method.
+The first way is the long method where we need to pass the View Object as a parameter and overriding the onClick method
 ```java
 
 miningButton.setOnClickListener(new View.onClickListener(){

@@ -1,3 +1,6 @@
+---
+aliases: [post request, delete request, get request]
+---
 ### Post request
 This will react to http request, usually in a form of an [[HTML]] form
 

@@ -1,5 +1,7 @@
 # Hooks
-[[React]] have its own renderer which makes it hard to make changes to the interface of the website dynamically. Using hooks, we make it possible. We utilize the ability of hooks by importing the `useState` class.
+[[React]] have its own renderer which makes it hard to make changes to the interface of the website dynamically. Using hooks, we make it possible. We utilize the ability of hooks by importing the `useState` class
+
+Hooks allow us to control when the website render or re render.
 
 ```js
 import React, {useState} from "react";

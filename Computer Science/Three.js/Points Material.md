@@ -1,2 +1,2 @@
 # Points Material
-For [[Three,js Particles]]
+For [[Three.js Particles]]

@@ -1,5 +1,5 @@
 # Motherboard
-Is a [[Printed Circuit Board]] that links different computer parts in a computer
+Is a [[Printed Circuit Board]] that links different computer parts in a computer, This is the computer's main circuit board.
 
 ## Parts
 - [[Random Access Memory]] and Ram SlOT![[Pasted image 20220906174130.png]]
